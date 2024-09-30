@@ -101,7 +101,7 @@ const CaseStudy = ({ data }) => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className={styles.embla__slide} >
+                                    {/* <div className={styles.embla__slide} >
                                         <div className={styles.casestudyBox} style={{ backgroundImage: `url(${Case03.src})` }}>
                                             <div className={styles.casestudyContent} >
                                                 <div className={styles.casestudyTxt}>
@@ -128,7 +128,7 @@ const CaseStudy = ({ data }) => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="embla_container">

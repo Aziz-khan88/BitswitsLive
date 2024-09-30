@@ -1,6 +1,6 @@
 import { Poppins } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ConditionalLayout from "@/src/app/conditionallayout";
+import ConditionalLayout from "@/src/app/ConditionalLayout";
 
 // import { usePathname } from 'next/navigation';
 // const pathname = usePathname();
