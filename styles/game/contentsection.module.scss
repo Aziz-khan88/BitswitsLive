@@ -1,0 +1,16 @@
+.contentSection {
+    background: #F6F6F6;
+
+    img {
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .contentSection {
+
+        img {
+            margin-top: 20px;
+        }
+    }
+}

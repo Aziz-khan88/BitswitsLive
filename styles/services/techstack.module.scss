@@ -1,0 +1,338 @@
+.stackSection {
+    p {
+        margin-bottom: 50px;
+    }
+
+    .tabName {
+        margin-bottom: 50px;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                height: 50px;
+                border-radius: 5px;
+                border: 1px solid #9098A1;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: normal;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 30px;
+                color: #9098A1;
+                cursor: pointer;
+                transition: .3s linear;
+
+                &:hover,
+                &.active {
+                    background: #4D77EE;
+                    border: 1px solid #4D77EE;
+                    transition: .3s linear;
+                    color: #fff;
+                }
+            }
+        }
+
+
+    }
+
+    .tabContent {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        .tabtxtBox {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 40px;
+
+            .txtImg {
+                background: #F3F3F3;
+                width: 125px;
+                height: 125px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    height: 50px;
+                    width: auto;
+                }
+            }
+
+            .txtTitle {
+                font-size: 17px;
+                color: #000;
+                line-height: normal;
+                font-weight: 400;
+                text-align: center;
+
+            }
+
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .stackSection {
+        p {
+            margin-bottom: 40px;
+        }
+
+        .tabName {
+            margin-bottom: 40px;
+
+            ul {
+                li {
+                    height: 50px;
+                    font-size: 16px;
+                    padding: 0px 30px;
+                }
+            }
+
+            .tabContent {
+                .tabtxtBox {
+                    margin-top: 30px;
+
+                    .txtImg {
+                        width: 125px;
+                        height: 125px;
+                        margin-bottom: 20px;
+
+                        img {
+                            height: 50px;
+                        }
+                    }
+
+                    .txtTitle {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .stackSection {
+        p {
+            margin-bottom: 30px;
+        }
+
+        .tabName {
+            margin-bottom: 30px;
+
+            ul {
+                li {
+                    height: 45px;
+                    font-size: 15px;
+                    padding: 0px 25px;
+                }
+            }
+
+            .tabContent {
+                .tabtxtBox {
+                    margin-top: 20px;
+
+                    .txtImg {
+                        width: 120px;
+                        height: 120px;
+                        margin-bottom: 20px;
+
+                        img {
+                            height: 50px;
+                        }
+                    }
+
+                    .txtTitle {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .stackSection {
+        s p {
+            margin-bottom: 30px;
+        }
+
+        .tabName {
+            margin-bottom: 30px;
+
+            ul {
+                li {
+                    height: 45px;
+                    font-size: 15px;
+                    padding: 0px 25px;
+                }
+            }
+        }
+
+        .tabContent {
+            .tabtxtBox {
+                margin-top: 20px;
+
+                .txtImg {
+                    width: 100px;
+                    height: 100px;
+                    margin-bottom: 20px;
+
+                    img {
+                        height: 45px;
+                    }
+                }
+
+                .txtTitle {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .stackSection {
+        p {
+            margin-bottom: 30px;
+        }
+
+        .tabName {
+            margin-bottom: 30px;
+
+            ul {
+                li {
+                    height: 40px;
+                    font-size: 14px;
+                    padding: 0px 20px;
+                }
+            }
+        }
+
+        .tabContent {
+            .tabtxtBox {
+                margin-top: 10px;
+
+                .txtImg {
+                    width: 100px;
+                    height: 100px;
+                    margin-bottom: 20px;
+
+                    img {
+                        height: 45px;
+                    }
+                }
+
+                .txtTitle {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .stackSection {
+        p {
+            margin-bottom: 20px;
+        }
+
+        .tabName {
+            margin-bottom: 20px;
+
+            ul {
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px;
+
+                li {
+                    height: 40px;
+                    font-size: 14px;
+                    padding: 0px 20px;
+                }
+            }
+        }
+
+        .tabContent {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            .tabtxtBox {
+                margin-top: 20px;
+
+                .txtImg {
+                    width: 90px;
+                    height: 90px;
+                    margin-bottom: 20px;
+
+                    img {
+                        height: 30px;
+                    }
+                }
+
+                .txtTitle {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .stackSection {
+        p {
+            margin-bottom: 20px;
+        }
+
+        .tabName {
+            margin-bottom: 20px;
+
+            ul {
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px;
+
+                li {
+                    height: 40px;
+                    font-size: 14px;
+                    padding: 0px 20px;
+                }
+            }
+        }
+
+        .tabContent {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            .tabtxtBox {
+                margin-top: 10px;
+
+                .txtImg {
+                    width: 80px;
+                    height: 80px;
+                    margin-bottom: 10px;
+
+                    img {
+                        height: 30px;
+                    }
+                }
+
+                .txtTitle {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
