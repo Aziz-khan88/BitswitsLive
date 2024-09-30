@@ -1,205 +1,203 @@
-import styles from "@/styles/layout/footer.module.scss"
 import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
 import CopyRight from "@/src/app/layout/copyright"
 import Location from "@/src/app/services/location";
+import styles from "@/styles/layout/footer.module.scss"
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "@/src/app/app-constants";
 
-const About = [
+const ServicesMenu = [
     {
-        title: "Our Company",
-        Links: "#"
+        title: "Flutter app development",
+        url: "/flutter-app-development",
     },
     {
-        title: "Core Team",
-        Links: "#"
+        title: "Android app development",
+        url: "/android-app-development-company",
     },
     {
-        title: "How we work",
-        Links: "#"
+        title: "React Native app development",
+        url: "/react-native-app-development",
     },
     {
-        title: "Success story",
-        Links: "#"
+        title: "iOS app development",
+        url: "/ios-app-development-company",
+    },
+    {
+        title: "Cross Platform app development",
+        url: "/cross-platform-app-development-services",
+    },
+    {
+        title: "NFT game development",
+        url: "/nft-game-development-company",
+    },
+    {
+        title: "AI Development Company",
+        url: "/ai-development-company",
+    },
+    {
+        title: "Blockchain game development",
+        url: "/blockchain-game-development-company",
     }
-
-]
-const Services = [
+    ,
     {
-        title: "Ios App Development",
-        Links: "#"
+        title: "Mobile Game Development",
+        url: "/mobile-game-development-company",
     },
     {
-        title: "Mobile App Development",
-        Links: "#"
-    },
-    {
-        title: "Android App Development",
-        Links: "#"
-    },
-    {
-        title: "Flutter App Development",
-        Links: "#"
-    },
-    {
-        title: "React Native App Development",
-        Links: "#"
-    },
-    {
-        title: "Hybrid Mobile Apps Development",
-        Links: "#"
-    },
-    {
-        title: "Cross Platform App Development",
-        Links: "#"
-    },
-    {
-        title: "Web App Development",
-        Links: "#"
-    }
-
-]
-const Technologies = [
-    {
-        title: "Game App Development",
-        Links: "#"
-    },
-    {
-        title: "2D Game Development",
-        Links: "#"
-    },
-    {
-        title: "3D Game Development",
-        Links: "#"
-    },
-
-    {
-        title: "NFT Game Development",
-        Links: "#"
-    },
-
-    {
-        title: "Blockchain Game Development",
-        Links: "#"
-    },
-    {
-        title: "Blockchain Development",
-        Links: "#"
-    },
-
-    {
-        title: "Artificial Intelligence",
-        Links: "#"
-    },
-    {
-        title: "Social Media App Development",
-        Links: "#"
-    },
-    {
-        title: "",
-        Links: "#"
-    },
-    {
-        title: "",
-        Links: "#"
+        title: "Hybrid app development",
+        url: "/hybrid-app-development-company",
     }
 ]
-const Industries = [
+const IndustriesMenu = [
     {
         title: "Healthcare",
-        Links: "#"
+        url: "/healthcare-app-development-services",
     },
     {
         title: "E-Commerce",
-        Links: "#"
+        url: "/ecommerce-app-development",
     },
     {
         title: "Education",
-        Links: "#"
+        url: "/education-app-development",
     },
     {
-        title: "Banking",
-        Links: "#"
+        title: "Real Estate",
+        url: "/real-estate-app-development-company",
     },
     {
-        title: "Lifestyle",
-        Links: "#"
+        title: "Music",
+        url: "/music-app-development-company",
     },
     {
-        title: "Sports",
-        Links: "#"
+        title: "Automotive",
+        url: "/automotive-software-development",
     },
     {
-        title: "Restaurants",
-        Links: "#"
+        title: "Social Media",
+        url: "/social-media-app-development-company",
     },
     {
-        title: "Travel",
-        Links: "#"
-    }
+        title: "Logistics",
+        url: "/logistics-software-development",
+    },
+    {
+        title: "Fintech",
+        url: "/fintech-app-development",
+    },
+]
+const LocationsMenu = [
+    {
+        title: "Austin",
+        url: "/app-development-austin",
+    },
+    {
+        title: "Chicago",
+        url: "/app-development-chicago",
+    },
+    {
+        title: "Dallas",
+        url: "/mobile-app-development-company-dallas",
+    },
+    {
+        title: "Denver",
+        url: "/mobile-app-development-company-denver",
+    },
+    {
+        title: "Dubai",
+        url: "/mobile-app-development-company-dubai",
+    },
+    {
+        title: "Florida",
+        url: "/app-development-florida",
+    },
+    {
+        title: "Miami",
+        url: "/mobile-app-development-company-miami",
+    },
+    {
+        title: "New York",
+        url: "/app-development-company-new-york",
+    },
+    {
+        title: "Saudi Arabia",
+        url: "/mobile-app-development-company-saudi-arabia",
+    }, {
+        title: "Toronto",
+        url: "/app-development-company-toronto",
+    },
+    {
+        title: "Washington DC",
+        url: "/app-development-company-washington-dc",
+    },
+    {
+        title: "Houston",
+        url: "/app-development-houston",
+    },
+
 ]
 const MainLinks = [
-
     {
-        title: "Contact Us",
-        Links: "#"
+        title: "Portfolio",
+        url: "/portfolio"
     },
     {
         title: "About Us",
-        Links: "#"
-    },
-    {
-        title: "Works",
-        Links: "#"
-    },
-    {
-        title: "Privacy Policy",
-        Links: "#"
-    },
-    {
-        title: "Terms & Conditions",
-        Links: "#"
+        url: "/about-us"
     },
     {
         title: "Blogs",
-        Links: "#"
-    }
+        url: "/blog"
+    },
+    {
+        title: "Privacy Policy",
+        url: "/privacy-policy"
+    },
+    {
+        title: "Terms & Conditions",
+        url: "/term-and-condition"
+    },
+
 ]
 
+const SocailLinks = [
+    {
+        icon: <Instagram />,
+        url: "https://www.instagram.com/officialBitsWits/"
+    },
+    {
+        icon: <Facebook />,
+        url: "https://www.facebook.com/officialbitswits/"
+    },
+    {
+        icon: <Twitter />,
+        url: "https://twitter.com/BitsWits_/"
+    },
+    {
+        icon: <Linkedin />,
+        url: "https://www.linkedin.com/company/officialbitswits"
+    },
+    {
+        icon: <Youtube />,
+        url: "https://www.youtube.com/@officialBitsWits"
+    },
+]
 
 const Footer = () => {
     return (
         <>
-            {/* <section className={`${styles.footerSection} bgBlack pb-50`}>
+            <Location />
+            <section className={`${styles.footerSection} bgBlack pb-50`}>
                 <Container>
                     <Row>
                         <Col lg={12} md={12}>
                             <div className={styles.footerMainBox}>
                                 <div className={styles.linksItem}>
-                                    <h6>About</h6>
-                                    <ul>
-                                        {About.map((item, index) => (
-                                            <li key={index}>
-                                                <Link href={item.Links}>{item.title}</Link>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                                <div className={styles.linksItem}>
                                     <h6>Services</h6>
                                     <ul>
-                                        {Services.map((item, index) => (
+                                        {ServicesMenu.map((item, index) => (
                                             <li key={index}>
-                                                <Link href={item.Links}>{item.title}</Link>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                                <div className={styles.linksItem}>
-                                    <h6>Technologies</h6>
-                                    <ul>
-                                        {Technologies.map((item, index) => (
-                                            <li key={index}>
-                                                <Link href={item.Links}>{item.title}</Link>
+                                                <Link href={item.url}>{item.title}</Link>
                                             </li>
                                         ))}
                                     </ul>
@@ -207,9 +205,9 @@ const Footer = () => {
                                 <div className={styles.linksItem}>
                                     <h6>Industries</h6>
                                     <ul>
-                                        {Industries.map((item, index) => (
+                                        {IndustriesMenu.map((item, index) => (
                                             <li key={index}>
-                                                <Link href={item.Links}>{item.title}</Link>
+                                                <Link href={item.url}>{item.title}</Link>
                                             </li>
                                         ))}
                                     </ul>
@@ -219,17 +217,41 @@ const Footer = () => {
                                     <ul>
                                         {MainLinks.map((item, index) => (
                                             <li key={index}>
-                                                <Link href={item.Links}>{item.title}</Link>
+                                                <Link href={item.url}>{item.title}</Link>
                                             </li>
                                         ))}
                                     </ul>
                                 </div>
                             </div>
+                            <div className={styles.footerLocationBox}>
+                                <div className={styles.footerLocListing}>
+                                    <div className={styles.linksItem}>
+                                        <h6>Location</h6>
+                                        <ul>
+                                            {LocationsMenu.map((item, index) => (
+                                                <li key={index}>
+                                                    <Link href={item.url}>{item.title}</Link>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className={styles.footerSocialListing}>
+                                    <div className={styles.linksItem}>
+                                        <ul>
+                                            {SocailLinks.map((item, index) => (
+                                                <li key={index}>
+                                                    <Link href={item.url}>{item.icon}</Link>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
-            </section> */}
-            <Location />
+            </section>
             <CopyRight />
         </>
     )

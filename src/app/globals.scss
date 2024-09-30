@@ -15,6 +15,10 @@ body {
     overflow-x: hidden;
     margin: auto;
 
+    .container {
+        max-width: 1440px;
+    }
+
     &.active {
         overflow: hidden;
 
@@ -31,9 +35,6 @@ body {
     }
 }
 
-.container {
-    max-width: 1440px;
-}
 
 .p-100 {
     padding: 100px 0px;
@@ -588,8 +589,10 @@ li {
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    .container {
-        max-width: 1280px;
+    body {
+        .container {
+            max-width: 1280px;
+        }
     }
 
     h1 {
@@ -723,8 +726,10 @@ li {
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
-    .container {
-        max-width: 1180px;
+    body {
+        .container {
+            max-width: 1180px;
+        }
     }
 
     h1 {
@@ -844,8 +849,10 @@ li {
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
-    .container {
-        max-width: 1150px;
+    body {
+        .container {
+            max-width: 1150px;
+        }
     }
 
     h1 {
@@ -967,8 +974,10 @@ li {
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
-    .container {
-        max-width: 960px;
+    body {
+        .container {
+            max-width: 960px;
+        }
     }
 
     h1 {
@@ -1115,8 +1124,10 @@ li {
         margin-left: auto;
     }
 
-    .container {
-        max-width: 700px;
+    body {
+        .container {
+            max-width: 700px;
+        }
     }
 
     h1 {
@@ -1266,8 +1277,10 @@ li {
         margin-left: auto;
     }
 
-    .container {
-        max-width: 700px;
+    body {
+        .container {
+            max-width: 700px;
+        }
     }
 
     h1 {

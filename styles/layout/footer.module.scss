@@ -5,6 +5,34 @@
         align-items: flex-start;
 
         .linksItem {
+            flex: 0 0 15%;
+
+            &:nth-child(2) {
+                flex: 0 0 35%;
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    li {
+                        flex: 0 0 50%;
+                    }
+                }
+            }
+
+            &:nth-child(1) {
+                flex: 0 0 50%;
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    li {
+                        flex: 0 0 50%;
+                    }
+                }
+            }
+
             h6 {
                 font-weight: 600;
                 font-size: 20px;
@@ -15,6 +43,9 @@
             }
 
             ul {
+                padding: 0px;
+                margin: 0px;
+
                 li {
                     margin-bottom: 10px;
 
@@ -27,7 +58,7 @@
                         transition: .3s linear;
 
                         &:hover {
-                            color: #4D77EE;
+                            color: #F32FAF;
                             transition: .3s linear;
                         }
 
@@ -36,6 +67,91 @@
             }
         }
     }
+
+    .footerLocationBox {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+
+        h6 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 16px;
+            letter-spacing: -0.165px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .footerLocListing {
+            flex: 0 0 75%;
+
+            .linksItem {
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0px;
+                    margin: 0px;
+
+                    li {
+                        flex: 0 0 16.66%;
+                        margin-bottom: 10px;
+
+                        a {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: -0.165px;
+                            color: rgb(255, 255, 255, 0.6);
+                            transition: .3s linear;
+
+                            &:hover {
+                                color: #F32FAF;
+                                transition: .3s linear;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerSocialListing {
+            flex: 0 0 25%;
+
+            .linksItem {
+                height: 90px;
+
+                ul {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    height: 100%;
+                    padding: 0px;
+                    margin: 0px;
+
+                    li {
+                        width: 50px;
+                        display: flex;
+                        justify-content: center;
+                        transition: .3s linear;
+
+                        &:hover {
+                            transition: .3s linear;
+
+                            a {
+                                svg {
+                                    path {
+                                        fill: #F32FAF;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -55,6 +171,47 @@
                         a {
                             font-size: 14px;
                             line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerLocationBox {
+            margin-top: 30px;
+
+            h6 {
+                font-size: 20px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+
+            .footerLocListing {
+                flex: 0 0 75%;
+
+                .linksItem {
+                    ul {
+                        li {
+                            margin-bottom: 10px;
+
+                            a {
+                                font-size: 14px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footerSocialListing {
+                flex: 0 0 25%;
+
+                .linksItem {
+                    height: 90px;
+
+                    ul {
+                        li {
+                            width: 50px;
                         }
                     }
                 }
@@ -86,6 +243,47 @@
                 }
             }
         }
+
+        .footerLocationBox {
+            margin-top: 30px;
+
+            h6 {
+                font-size: 18px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+
+            .footerLocListing {
+                flex: 0 0 75%;
+
+                .linksItem {
+                    ul {
+                        li {
+                            margin-bottom: 10px;
+
+                            a {
+                                font-size: 13px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footerSocialListing {
+                flex: 0 0 25%;
+
+                .linksItem {
+                    height: 90px;
+
+                    ul {
+                        li {
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -111,6 +309,47 @@
                 }
             }
         }
+
+        .footerLocationBox {
+            margin-top: 30px;
+
+            h6 {
+                font-size: 18px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+
+            .footerLocListing {
+                flex: 0 0 75%;
+
+                .linksItem {
+                    ul {
+                        li {
+                            margin-bottom: 10px;
+
+                            a {
+                                font-size: 13px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footerSocialListing {
+                flex: 0 0 25%;
+
+                .linksItem {
+                    height: 90px;
+
+                    ul {
+                        li {
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -126,11 +365,226 @@
 
                 ul {
                     li {
-                        margin-bottom: 10px;
+                        margin-bottom: 7px;
 
                         a {
-                            font-size: 13px;
-                            line-height: 24px;
+                            font-size: 12px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerLocationBox {
+            margin-top: 25px;
+
+            h6 {
+                font-size: 18px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+
+            .footerLocListing {
+                flex: 0 0 75%;
+
+                .linksItem {
+                    ul {
+                        li {
+                            margin-bottom: 7px;
+
+                            a {
+                                font-size: 12px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footerSocialListing {
+                flex: 0 0 25%;
+
+                .linksItem {
+                    height: 75px;
+
+                    ul {
+                        li {
+                            width: 40px;
+
+                            svg {
+                                width: auto;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .footerSection {
+        .footerMainBox {
+            flex-wrap: wrap;
+
+            .linksItem {
+                flex: 0 0 100% !important;
+                margin-bottom: 20px;
+
+                h6 {
+                    font-size: 18px;
+                    line-height: 16px;
+                    margin-bottom: 15px;
+                }
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    li {
+                        flex: 0 0 33.33% !important;
+                        margin-bottom: 7px;
+
+                        a {
+                            font-size: 12px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerLocationBox {
+            margin-top: 0px;
+            flex-wrap: wrap;
+
+            h6 {
+                font-size: 18px;
+                line-height: 16px;
+                margin-bottom: 15px;
+            }
+
+            .footerLocListing {
+                flex: 0 0 100%;
+
+                .linksItem {
+                    ul {
+                        li {
+                            margin-bottom: 7px;
+
+                            a {
+                                font-size: 12px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footerSocialListing {
+                flex: 0 0 100%;
+
+                .linksItem {
+                    height: 45px;
+
+                    ul {
+                        justify-content: flex-start;
+
+                        li {
+                            width: 40px;
+
+                            svg {
+                                width: auto;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .footerSection {
+        .footerMainBox {
+            flex-wrap: wrap;
+
+            .linksItem {
+                flex: 0 0 100% !important;
+                margin-bottom: 20px;
+
+                h6 {
+                    font-size: 18px;
+                    line-height: 16px;
+                    margin-bottom: 15px;
+                }
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    li {
+                        flex: 0 0 100% !important;
+                        margin-bottom: 5px;
+
+                        a {
+                            font-size: 12px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerLocationBox {
+            margin-top: 0px;
+            flex-wrap: wrap;
+
+            h6 {
+                font-size: 18px;
+                line-height: 16px;
+                margin-bottom: 15px;
+            }
+
+            .footerLocListing {
+                flex: 0 0 100%;
+
+                .linksItem {
+
+
+                    ul {
+                        li {
+                            flex: 0 0 100%;
+                            margin-bottom: 5px;
+
+                            a {
+                                font-size: 12px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footerSocialListing {
+                flex: 0 0 100%;
+
+                .linksItem {
+                    height: 45px;
+
+                    ul {
+                        justify-content: flex-start;
+
+                        li {
+                            width: 40px;
+
+                            svg {
+                                width: auto;
+                                height: 20px;
+                            }
                         }
                     }
                 }

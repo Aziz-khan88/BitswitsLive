@@ -1,7 +1,7 @@
 
 
 // Extended Services Images
-import { ArtificialIntelligence, BigData, Blockchain, InternetOfThings, MixedReality } from "@/src/app/app-constants"
+import { ArtificialIntelligence, BigData, Blockchain, FinTech, InternetOfThings, Logistics, MixedReality } from "@/src/app/app-constants"
 
 //========= Process Images
 import { Process01, Process02, Process03, Process04, Process05, Process06, Process07, Process08 } from "@/src/app/app-constants"
@@ -362,9 +362,9 @@ export const IndustriesSLIDES = [
         txt: "We specialize in EHR integration, telemedicine platforms, and HIPAA-compliant solutions, enhancing patient care, optimizing workflows, and improving data management for healthcare providers across the sector."
     },
     {
-        title: "Food",
-        icon: <Food />,
-        txt: "Addressing industry challenges through supply chain management, inventory tracking, and compliance automation, we deliver solutions that prioritize safety, traceability, and efficiency in food distribution and restaurant operations."
+        title: "FinTech",
+        icon: <FinTech />,
+        txt: "We develop secure, scalable FinTech platforms for financial institutions, covering payment processing, digital wallets and regulatory compliance. Our solutions streamline transactions, enhance services, and ensure robust data security."
     },
     {
         title: "Education",
@@ -392,9 +392,9 @@ export const IndustriesSLIDES = [
         txt: "Developing scalable social media platforms with strong user engagement features, real-time content moderation, and interactive tools, we enhance community growth and optimize user retention for our clients."
     },
     {
-        title: "Insurance",
-        icon: <Insurance />,
-        txt: "Our solutions drive efficiency in policy management, claims automation, and risk assessment by using AI-driven analytics and compliance tools to improve service quality and customer satisfaction."
+        title: "Logistics",
+        icon: <Logistics />,
+        txt: "We specialize in logistics solutions, optimizing supply chain, fleet tracking, warehouse automation, and real-time data integration. Our platforms streamline operations, reduce costs, and enhance efficiency across logistics networks for businesses."
     },
     {
         title: "eCommerce",

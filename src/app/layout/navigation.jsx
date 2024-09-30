@@ -87,56 +87,7 @@ const IndustriesMenu = [
         url: "/fintech-app-development",
     },
 ]
-// const LocationsMenu = [
-//     {
-//         title: "Austin",
-//         url: "/app-development-austin",
-//     },
-//     {
-//         title: "Chicago",
-//         url: "/app-development-chicago",
-//     },
-//     {
-//         title: "Dallas",
-//         url: "/mobile-app-development-company-dallas",
-//     },
-//     {
-//         title: "Denver",
-//         url: "/mobile-app-development-company-denver",
-//     },
-//     {
-//         title: "Dubai",
-//         url: "/mobile-app-development-company-dubai",
-//     },
-//     {
-//         title: "Florida",
-//         url: "/app-development-florida",
-//     },
-//     {
-//         title: "Miami",
-//         url: "/mobile-app-development-company-miami",
-//     },
-//     {
-//         title: "New York",
-//         url: "/app-development-company-new-york",
-//     },
-//     {
-//         title: "Saudi Arabia",
-//         url: "/mobile-app-development-company-saudi-arabia",
-//     }, {
-//         title: "Toronto",
-//         url: "/app-development-company-toronto",
-//     },
-//     {
-//         title: "Washington DC",
-//         url: "/app-development-company-washington-dc",
-//     },
-//     {
-//         title: "Houston",
-//         url: "/app-development-houston",
-//     },
 
-// ]
 
 const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
     const [isActive, setIsActive] = useState(false);
@@ -220,7 +171,7 @@ const Navigation = ({ isDarkHeader, isLightHeader, scrolled }) => {
             </ul>
             <div className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ''}`} >
                 <ul className={styles.mobileNavigation}>
-                    <li>
+                    <li >
                         <Link href="/">Home</Link>
                     </li>
                     <li onClick={handleClick}>

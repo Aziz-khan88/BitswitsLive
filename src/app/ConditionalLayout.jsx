@@ -75,7 +75,7 @@ const ConditionalLayout = ({ children }) => {
     const [useAltStyle, setUseAltStyle] = useState(false);
 
     useEffect(() => {
-        setIsLight(isLightHeader.includes(pathname));
+        setIsLight(isLightHeader.includes(pathname) || pathname.startsWith('/case-studies/'));
         setIsDark(isDarkHeader.includes(pathname));
         setUseAltStyle(styleChange.includes(pathname));
     }, [pathname]);

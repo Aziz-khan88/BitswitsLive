@@ -64,6 +64,7 @@
 
                 a {
                     color: #fff;
+
                 }
             }
         }
@@ -273,6 +274,11 @@
         li {
             a {
                 color: #000;
+
+                &:hover {
+                    transition: .3s linear;
+                    color: #F32FAF;
+                }
             }
         }
     }
@@ -287,6 +293,11 @@
         li {
             a {
                 color: #fff;
+
+                &:hover {
+                    transition: .3s linear;
+                    color: #F32FAF;
+                }
             }
         }
     }
