@@ -2,18 +2,6 @@ import { Poppins } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ConditionalLayout from "@/src/app/ConditionalLayout";
 
-// import { usePathname } from 'next/navigation';
-// const pathname = usePathname();
-// if (pathname === '/') {
-//   require('@/src/app/globals.scss');
-// } else {
-//   require('@/styles/globals.css');
-// }
-
-
-// import Header from "@/src/app/layout/header";
-// import Footer from "@/src/app/layout/footer";
-
 
 const poppins = Poppins({
   subsets: ["latin"],
