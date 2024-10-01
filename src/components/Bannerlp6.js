@@ -6,7 +6,7 @@ import LpCarousel from '../components/LpCarousel';
 const AndriodBanner = (props) => {
     return (
         <>
-            <section className={styles[props.newHomeBgprops]} >
+            <section className={`${styles[props.newHomeBgprops]} pt-140`} >
                 <Container>
                     <Row>
                         <Col lg={12}>

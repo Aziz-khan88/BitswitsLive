@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 991px) {
   .newHomeBg {
-    height: 90vh;
+    height: 100%;
     display: flex;
     align-items: center;
     padding: 0;

@@ -7,7 +7,7 @@ import styles from "@/styles/ServicesBanner.module.css";
 const ServiceBanner = (props) => {
   return (
     <>
-      <section className={`${styles.newHomeBg} ${styles[props.assignClass]}`}>
+      <section className={`${styles.newHomeBg} ${styles[props.assignClass]} pt-140`}>
         <Container>
           <Row>
             <Col xl={12}>

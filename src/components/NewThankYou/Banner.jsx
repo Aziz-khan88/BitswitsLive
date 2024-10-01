@@ -58,7 +58,7 @@ const Banner = () => {
         ]
     };
     return (
-        <section className={styles.ThankYouSec}>
+        <section className={`${styles.ThankYouSec} pt-200`}>
             <Container>
                 <Row>
                     <Col lg={12}>

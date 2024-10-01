@@ -77,7 +77,7 @@ const Appmaking = () => {
 
     return (
         <>
-            <section className={styles.appmaking} id='technofair'>
+            <section className={`${styles.appmaking} pt-140`} id='technofair'>
                 <Container>
                     <Row className={`${styles.platform} w-100 gx-5 gy-3`}>
                         <Col xl={10}>

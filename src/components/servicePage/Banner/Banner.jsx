@@ -208,7 +208,7 @@ const Banner = ({ content }) => {
     }, []);
 
     return (
-        <section className={`${styles.bannerSec} ${styles.bannerOne}`}>
+        <section className={`${styles.bannerSec} ${styles.bannerOne} pt-140`}>
             <div className="tools">
                 <div className={styles.moveLogos}>
                     <div className={styles._rows1}>

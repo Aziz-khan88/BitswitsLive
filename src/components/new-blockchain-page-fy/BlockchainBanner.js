@@ -6,7 +6,7 @@ import styles from "./Banner.module.css";
 const BlockchainBanner = (props) => {
   return (
     <>
-      <section className={`${styles.newHomeBg} ${styles[props.assignClass]}`}>
+      <section className={`${styles.newHomeBg} ${styles[props.assignClass]} pt-140`}>
         <Container>
           <Row>
             <Col xl={12}>

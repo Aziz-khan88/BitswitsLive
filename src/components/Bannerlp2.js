@@ -15,7 +15,7 @@ const Bannerlp2 = (props) => {
     return (
         <>
 
-            <section className={styles[props.newHomeBgprops]} >
+            <section className={`${styles[props.newHomeBgprops]} pt-140`} >
 
                 <Container className={` ${styles.conform}`}>
 

@@ -9,7 +9,7 @@ const AndriodBanner = (props) => {
 
     return (
         <>
-            <section className={styles[props.newHomeBgprops]} >
+            <section className={`${styles[props.newHomeBgprops]} pt-140`} >
                 <Container>
                     <Row>
                         <Col xl={12}>

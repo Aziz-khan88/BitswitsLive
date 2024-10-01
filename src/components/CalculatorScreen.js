@@ -474,7 +474,7 @@ const CalculatorScreen = () => {
 
     return (
         <>
-            <section className={styles.screen}>
+            <section className={`${styles.screen} murtaza`}>
                 <Container fluid className={styles.height}>
                     <Row className={`justify-content-between ${styles.calRow}`}>
                         <Col lg={7} className={styles.col1}>

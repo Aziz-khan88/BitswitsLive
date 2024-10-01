@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function privacypolicy() {
   return (
     <>
-      <section className="bg-black pt-5 pb-md-5 pb-0">
+      <section className="bg-black pt-140 pb-md-5 pb-0">
         <Container>
           <Row>
             <Col lg={12}>

@@ -22,7 +22,7 @@ const Bannerlpfinal = (props) => {
     const [score, setScore] = useState('ENQUIRE NOW');
 
     // Creating function to load IP address from the API
- 
+
     const getIPData = async () => {
         try {
             const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
@@ -163,7 +163,7 @@ const Bannerlpfinal = (props) => {
     return (
         <>
 
-            <section className={styles[props.newHomeBgprops]}>
+            <section className={`${styles[props.newHomeBgprops]} pt-140`}>
                 <Container className={` ${styles.conform1} overflow-hidden`}>
                     <Row className={`${styles.alignpost} gx-5`}>
                         <Col xl={7}>

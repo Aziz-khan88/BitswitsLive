@@ -71,83 +71,83 @@ export default function SocialMediaApp() {
       <People People="people" />
       {isMobile ? (
         showMobileComponents && (
-        <>
-          <HomeBannerSliderlp />
-          <SocialLpForm />
-          <Nothing Nothing="nothingLp6" />
-          <SocialExpertapp expertapp="expertapp" />
-          <SocialLpSolutions />
-          <WeworkLp wework="weworkLpnewhomefy" />
-          <StartupsLp startups="startups" />
-          <ProjectProcess
-            processclass="processLp6"
-            title="Explore Our App Development Journey"
-            desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
-          />
-          <LpChoose transform="transformlp" />
-          <Technologieswe />
-          <Justbuilditlp
-            title={
-              <>
-                <h2 className={stylesjust.just}>Just Build It.</h2>
-              </>
-            }
-            para={
-              <>
-                <h3 className={stylesjust.develop}>
-                  Design, Develop, and Grow with BitsWits.
-                </h3>
-              </>
-            }
-            slide="slide1lp"
-          />
-          <Globallplp6 />
-          <Partnerships />
-          <Formnewlp />
-          <NewFaqslp />
-          <HomeLocationlp />
-        </>
-       )
+          <>
+            <HomeBannerSliderlp />
+            <SocialLpForm />
+            <Nothing Nothing="nothingLp6" />
+            <SocialExpertapp expertapp="expertapp" />
+            <SocialLpSolutions />
+            <WeworkLp wework="weworkLpnewhomefy" />
+            <StartupsLp startups="startups" />
+            <ProjectProcess
+              processclass="processLp6"
+              title="Explore Our App Development Journey"
+              desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
+            />
+            <LpChoose transform="transformlp" />
+            <Technologieswe />
+            <Justbuilditlp
+              title={
+                <>
+                  <h2 className={stylesjust.just}>Just Build It.</h2>
+                </>
+              }
+              para={
+                <>
+                  <h3 className={stylesjust.develop}>
+                    Design, Develop, and Grow with BitsWits.
+                  </h3>
+                </>
+              }
+              slide="slide1lp"
+            />
+            <Globallplp6 />
+            <Partnerships />
+            <Formnewlp />
+            <NewFaqslp />
+            <HomeLocationlp />
+          </>
+        )
       ) : (
         showDesktopComponents && (
           <>
             <HomeBannerSliderlp />
-          <SocialLpForm />
-          <Nothing Nothing="nothingLp6" />
-          <SocialExpertapp expertapp="expertapp" />
-          <SocialLpSolutions />
-          <WeworkLp wework="weworkLpnewhomefy" />
-          <StartupsLp startups="startups" />
-          <ProjectProcess
-            processclass="processLp6"
-            title="Explore Our App Development Journey"
-            desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
-          />
-          <LpChoose transform="transformlp" />
-          <Technologieswe />
-          <Justbuilditlp
-            title={
-              <>
-                <h2 className={stylesjust.just}>Just Build It.</h2>
-              </>
-            }
-            para={
-              <>
-                <h3 className={stylesjust.develop}>
-                  Design, Develop, and Grow with BitsWits.
-                </h3>
-              </>
-            }
-            slide="slide1lp"
-          />
-          <Globallplp6 />
-          <Partnerships />
-          <Formnewlp />
-          <NewFaqslp />
-          <HomeLocationlp />
+            <SocialLpForm />
+            <Nothing Nothing="nothingLp6" />
+            <SocialExpertapp expertapp="expertapp" />
+            <SocialLpSolutions />
+            <WeworkLp wework="weworkLpnewhomefy" />
+            <StartupsLp startups="startups" />
+            <ProjectProcess
+              processclass="processLp6"
+              title="Explore Our App Development Journey"
+              desc="We believe in efficiency without compromising quality. Our streamlined process for app development is <br /> designed to be transparent and collaborative, ensuring your vision comes to life exactly as you imagined."
+            />
+            <LpChoose transform="transformlp" />
+            <Technologieswe />
+            <Justbuilditlp
+              title={
+                <>
+                  <h2 className={stylesjust.just}>Just Build It.</h2>
+                </>
+              }
+              para={
+                <>
+                  <h3 className={stylesjust.develop}>
+                    Design, Develop, and Grow with BitsWits.
+                  </h3>
+                </>
+              }
+              slide="slide1lp"
+            />
+            <Globallplp6 />
+            <Partnerships />
+            <Formnewlp />
+            <NewFaqslp />
+            <HomeLocationlp />
           </>
         )
-        )}
+      )}
     </>
   );
 }

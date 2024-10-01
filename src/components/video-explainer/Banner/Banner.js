@@ -157,7 +157,7 @@ const Banner = () => {
 
     return (
         <>
-            <section className={`${styles.bannerSec}`}>
+            <section className={`${styles.bannerSec} pt-250`}>
                 <div className='container'>
                     <Row>
                         <Col lg={7}>

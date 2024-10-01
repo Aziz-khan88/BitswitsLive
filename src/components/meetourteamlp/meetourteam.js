@@ -37,7 +37,7 @@ const meetourteamlp = () => {
       phone2: "+92-320-8869696",
       href3: "tel:+92-320-8869696",
     },
-   
+
     {
       id: "Austin",
       teamMember: Austin,
@@ -49,7 +49,7 @@ const meetourteamlp = () => {
       href2: "tel:+1-302-312-8230",
       phone2: "+92-334-3932952",
       href3: "tel:+92-334-3932952",
-      
+
     },
   ]
 
@@ -76,7 +76,7 @@ const meetourteamlp = () => {
 
   return (
     <>
-      <section className={`${styles.meetteam} meetteam`}>
+      <section className={`${styles.meetteam} meetteam pt-200`}>
         <Container className={`text-center`}>
           <Row>
             <Col lg={12}>
@@ -102,9 +102,9 @@ const meetourteamlp = () => {
                       <p><a className='text-white' href={e.href3}>{e.phone2}</a></p>
                       <p><a className='text-white' href={e.href1}>{e.email}</a></p>
                       <p className={styles.position}>{e.position}</p>
-                    
-                  
-                      
+
+
+
                     </div>
                   </div>
                 </div>
@@ -126,8 +126,8 @@ const meetourteamlp = () => {
                       <p><a className='text-white' href={e.href3}>{e.phone2}</a></p>
                       <p><a className='text-white' href={e.href1}>{e.email}</a></p>
                       <p className={styles.position}>{e.position}</p>
-                      
-                  
+
+
                     </div>
                   </div>
                 </div>

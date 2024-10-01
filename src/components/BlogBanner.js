@@ -14,7 +14,7 @@ const BlogBanner = () => {
     const [score, setScore] = useState('Subscribe');
 
     // Creating function to load IP address from the API
- 
+
     const getIPData = async () => {
         try {
             const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
@@ -139,12 +139,12 @@ const BlogBanner = () => {
 
     return (
         <>
-            <section className={styles.bannerSec}>
+            <section className={`${styles.bannerSec} pt-200`}>
                 <Container>
                     <Row>
                         <Col lg={12}>
                             <div className={styles.txt}>
-                                <h1 className='text-center text-white'>Conquer Tech With Bitswits: <br />
+                                <h1 className='text-center text-white pt-'>Conquer Tech With Bitswits: <br />
                                     Your Path To Unstoppable Progress!</h1>
                                 <p className='text-white text-center fontsfregular'>We’re A Software Development Company That Ensures Its Expertise Extends To Offer A Seamlessly Productive And <br /> Growth-Oriented Partnership To Its Client’s Goals, And Internal Teams.</p>
                             </div>

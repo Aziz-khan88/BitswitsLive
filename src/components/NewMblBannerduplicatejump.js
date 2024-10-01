@@ -15,7 +15,7 @@ const NewHomeBanner = () => {
     const [score, setScore] = useState('Submit');
 
     // Creating function to load IP address from the API
- 
+
     const getIPData = async () => {
         try {
             const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
@@ -155,7 +155,7 @@ const NewHomeBanner = () => {
 
     return (
         <>
-            <section className={styles.newHomeBg}>
+            <section className={`${styles.newHomeBg} pt-140`}>
                 <Container>
                     <Row>
                         <Col xl={12}>

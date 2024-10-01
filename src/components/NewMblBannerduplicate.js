@@ -13,7 +13,7 @@ import HomeBannerSlider from './HomeBannerSlider';
 const NewHomeBanner = () => {
     return (
         <>
-            <section className={`${styles.newHomeBg} overflow-hidden`}>
+            <section className={`${styles.newHomeBg} overflow-hidden pt-140`}>
                 <Container>
                     <Row>
                         <Col xl={12}>

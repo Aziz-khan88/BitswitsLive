@@ -86,7 +86,7 @@ const Ecommerce = () => {
     <>
       {/* <EcommerceBanner /> */}
       <section className="overflow-hidden">
-        <div className={`${styles.awardsFold}`}>
+        <div className={`${styles.awardsFold} pt-140`}>
           <div className="container-fluid px-0">
             <div className="row align-items-center">
               <div className="col-xl-5 col-lg-12 col-sm-12">

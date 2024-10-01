@@ -503,7 +503,7 @@
 
 @media screen and (max-width: 1799px) {
   .bannerOne {
-    height: 100vh;
+    height: 100%;
   }
 
   .applost {
@@ -699,7 +699,7 @@
 @media screen and (max-width: 1099px) {
   /* .BannerThree img:last-of-type {
     width: 100%;
-  } */ 
+  } */
 
   .your {
     width: 100%;

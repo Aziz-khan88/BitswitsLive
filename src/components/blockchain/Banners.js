@@ -20,7 +20,7 @@ function Banners() {
     const [score, setScore] = useState('Submit');
 
     // Creating function to load IP address from the API
- 
+
     const getIPData = async () => {
         try {
             const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
@@ -159,7 +159,7 @@ function Banners() {
 
     return (
         <>
-            <div className='HomeBanner'>
+            <div className='HomeBanner pt-5'>
                 <div className={style.overlay}></div>
                 <div className='homeVideo'>
                     {bannerVideo && (
