@@ -12,6 +12,7 @@ const poppins = Poppins({
 
 //===== Meta Data =====
 export const metadata = {
+  metadataBase: new URL("https://www.bitswits.co/"),
   //===== Meta Tags =====
   title: "Expert Mobile App Development Company | BitsWits",
   description: "BitsWits empowers SMBs and entrepreneurs with mobile app development, delivering solutions across 10+ industries to drive business success and growth.",
