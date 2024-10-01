@@ -38,27 +38,33 @@ export const HomeServicesContent = {
 export const HomeServicesList = [
     {
         title: "Mobile App Development",
-        txt: "We have expertise in both native and cross-platform mobile app development for Android and iOS. Using Kotlin, Java, Swift, and Xcode for native apps, and Flutter or React Native for cross-platform, we deliver custom solutions across 30+ industries!"
+        txt: "We provide end-to-end mobile app development services, from ideation to deployment. Our team ensures optimal UI/UX design, robust backend architecture, and post-launch support, delivering secure and high-performing apps for various business needs.",
+        url: "/mobile-application-development-services"
     },
     {
-        title: "Software Development",
-        txt: "We design bespoke software solutions to meet your business’s unique needs. With expertise in technologies like Python, Java, and .NET, we build scalable, high-performance applications that streamline operations and enhance overall productivity."
+        title: "Android App Development",
+        txt: "We specialize in Android app development using Java and Kotlin, building high-performance apps optimized for the Google Play Store. Our custom solutions support diverse industries and deliver smooth user experiences across all Android devices.",
+        url: "/android-app-development-company"
     },
     {
-        title: "Enterprise Consulting",
-        txt: "We provide businesses with expert guidance on platforms like HubSpot, Salesforce, and other leading CRMs. We help streamline processes, optimize workflows, and integrate advanced tools to improve customer management, marketing automation, and overall business efficiency, empowering you to drive sustainable growth."
+        title: "iOS App Development",
+        txt: "Our iOS app development expertise includes Swift and Xcode, creating secure apps for the App Store. We build custom iOS apps that enhance user engagement and performance, providing exceptional UX across iPhones, iPads, and other Apple devices.",
+        url: "/ios-app-development-company"
     },
     {
-        title: "Game App Development",
-        txt: "Our game app development services span 15+ genres, offering immersive 2D and 3D gameplay. Using advanced technologies like Unity, Unreal, and Godot, we create optimized, smooth-running games tailored for all screen sizes and devices."
+        title: "Cross Platform App Development",
+        txt: "We deliver cross-platform apps using Flutter and React Native, providing businesses with scalable solutions. Our apps work efficiently across iOS, Android, and other platforms, reducing development time and costs while maintaining quality.",
+        url: "/cross-platform-app-development-services"
     },
     {
-        title: "Web Development",
-        txt: "We provide comprehensive web development services, from dynamic websites to advanced web applications. Using technologies like HTML, CSS, JavaScript, React, and Node.js, we create responsive, high-performance websites tailored to diverse industries."
+        title: "Mobile Game Development",
+        txt: "Our game app development services span 15+ genres, offering immersive 2D and 3D gameplay. Using advanced technologies like Unity, Unreal, and Godot, we create optimized, smooth-running games tailored for all screen sizes and devices.",
+        url: "/mobile-game-development-company"
     },
     {
-        title: "Staff Augmentation",
-        txt: "Our services help you scale your teams with highly skilled professionals. Whether you need temporary support or long-term talent, our experts seamlessly integrate with your in-house team, providing the flexibility to meet project demands and ensuring you stay ahead of your goals."
+        title: "Blockchain App Development",
+        txt: "We develop blockchain apps with secure, decentralized technologies, supporting industries like finance, healthcare, and supply chain. Using Ethereum, Hyperledger, and smart contracts, we bring transparency and automation to your blockchain app.",
+        url: "/blockchain-game-development-company"
     }
 ]
 
@@ -359,47 +365,56 @@ export const IndustriesSLIDES = [
     {
         title: "Healthcare",
         icon: <Healthcare />,
-        txt: "We specialize in EHR integration, telemedicine platforms, and HIPAA-compliant solutions, enhancing patient care, optimizing workflows, and improving data management for healthcare providers across the sector."
+        txt: "We specialize in EHR integration, telemedicine platforms, and HIPAA-compliant solutions, enhancing patient care, optimizing workflows, and improving data management for healthcare providers across the sector.",
+        url: "/healthcare-app-development-services",
     },
     {
         title: "FinTech",
         icon: <FinTech />,
-        txt: "We develop secure, scalable FinTech platforms for financial institutions, covering payment processing, digital wallets and regulatory compliance. Our solutions streamline transactions, enhance services, and ensure robust data security."
+        txt: "We develop secure, scalable FinTech platforms for financial institutions, covering payment processing, digital wallets and regulatory compliance. Our solutions streamline transactions, enhance services, and ensure robust data security.",
+        url: "/fintech-app-development",
     },
     {
         title: "Education",
         icon: <Education />,
-        txt: "Our expertise lies in building scalable e-learning platforms with LMS integration, adaptive learning tools, and real-time analytics, designed to boost student engagement and improve learning outcomes across institutions."
+        txt: "Our expertise lies in building scalable e-learning platforms with LMS integration, adaptive learning tools, and real-time analytics, designed to boost student engagement and improve learning outcomes across institutions.",
+        url: "/education-app-development",
     },
     {
         title: "Real Estate",
         icon: <RealEstate />,
-        txt: "Delivering powerful tools like CRM integration, property management systems, and IDX-powered solutions, we streamline real estate transactions, elevate client interactions, and increase property visibility."
+        txt: "Delivering powerful tools like CRM integration, property management systems, and IDX-powered solutions, we streamline real estate transactions, elevate client interactions, and increase property visibility.",
+        url: "/real-estate-app-development-company",
     },
     {
         title: "Automotive",
         icon: <Automotive />,
-        txt: "With in-depth knowledge of telematics, vehicle connectivity, and fleet management systems, we provide solutions that enhance automotive performance, streamline logistics, and accelerate advancements in the mobility sector."
+        txt: "With in-depth knowledge of telematics, vehicle connectivity, and fleet management systems, we provide solutions that enhance automotive performance, streamline logistics, and accelerate advancements in the mobility sector.",
+        url: "/automotive-software-development",
     },
     {
         title: "Music",
         icon: <Music />,
-        txt: "We build robust music platforms featuring advanced streaming capabilities, copyright management, and real-time analytics, empowering artists and businesses to engage listeners and drive revenue effectively."
+        txt: "We build robust music platforms featuring advanced streaming capabilities, copyright management, and real-time analytics, empowering artists and businesses to engage listeners and drive revenue effectively.",
+        url: "/music-app-development-company",
     },
     {
         title: "Social Media",
         icon: <SocialMedia />,
-        txt: "Developing scalable social media platforms with strong user engagement features, real-time content moderation, and interactive tools, we enhance community growth and optimize user retention for our clients."
+        txt: "Developing scalable social media platforms with strong user engagement features, real-time content moderation, and interactive tools, we enhance community growth and optimize user retention for our clients.",
+        url: "/social-media-app-development-company",
     },
     {
         title: "Logistics",
         icon: <Logistics />,
-        txt: "We specialize in logistics solutions, optimizing supply chain, fleet tracking, warehouse automation, and real-time data integration. Our platforms streamline operations, reduce costs, and enhance efficiency across logistics networks for businesses."
+        txt: "We specialize in logistics solutions, optimizing supply chain, fleet tracking, warehouse automation, and real-time data integration. Our platforms streamline operations, reduce costs, and enhance efficiency across logistics networks for businesses.",
+        url: "/logistics-software-development",
     },
     {
         title: "eCommerce",
         icon: <ECommerce />,
-        txt: "With a focus on scalability, omnichannel integration, and personalized shopping experiences, we deliver e-commerce platforms that enhance customer journeys, boost conversions, and streamline backend operations for online retailers."
+        txt: "With a focus on scalability, omnichannel integration, and personalized shopping experiences, we deliver e-commerce platforms that enhance customer journeys, boost conversions, and streamline backend operations for online retailers.",
+        url: "/ecommerce-app-development",
     }
 ]
 

@@ -1,10 +1,18 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/health/bgBanner.webp";
+
+// IndustryCta Images
+import IndustryCtaImg from "media/industry/health/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/health/industry/Industry01.webp"
+import IndustrySliderIMG02 from "media/industry/health/industry/Industry02.webp"
+import IndustrySliderIMG03 from "media/industry/health/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/health/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/health/industry/Industry05.webp"
+import IndustrySliderIMG06 from "media/industry/health/industry/Industry06.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +23,13 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/health//techImg.webp"
 
 //========= Process Images
 import IMG from "media/services/process/tab01.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { HealthCareIcon01, HealthCareIcon02, HealthCareIcon03, HealthCareIcon04, } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,45 +43,45 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/health/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
+import TAB1_1 from "media/industry/techstack/Reactjs.svg";
+import TAB1_2 from "media/industry/techstack/Angular.svg";
+import TAB1_3 from "media/industry/techstack/Vuejs.svg";
+import TAB1_4 from "media/industry/techstack/HTML5.svg";
+import TAB1_5 from "media/industry/techstack/CSS3.svg";
 import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB7_1 from "media/services/tech/tab6/04.webp";
-import TAB7_2 from "media/services/tech/tab6/02.webp";
-import TAB7_3 from "media/services/tech/tab6/03.webp";
+import TAB2_1 from "media/industry/techstack/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/Python.svg";
+import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
+import TAB2_4 from "media/industry/techstack/Java.svg";
+import TAB2_5 from "media/industry/techstack/DotNET.svg";
+import TAB2_6 from "media/industry/techstack/PHP.svg";
+import TAB3_1 from "media/industry/techstack/Swift.svg";
+import TAB3_2 from "media/industry/techstack/Kotlin.svg";
+import TAB3_3 from "media/industry/techstack/ReactNative.svg";
+import TAB3_4 from "media/industry/techstack/Flutter.svg";
+import TAB3_5 from "media/industry/techstack/Xamarin.svg";
+import TAB4_1 from "media/industry/techstack/MySQL.svg";
+import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB4_3 from "media/industry/techstack/MongoDB.svg";
+import TAB4_4 from "media/industry/techstack/SQLite.svg";
+import TAB4_5 from "media/industry/techstack/Redis.svg";
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_4 from "media/industry/techstack/Firebase.svg";
+import TAB6_1 from "media/industry/techstack/OAuth.svg";
+import TAB6_2 from "media/industry/techstack/JWT.svg";
+import TAB6_3 from "media/industry/techstack/HIPAAComplianceTools.svg";
+import TAB7_1 from "media/industry/techstack/HL7.svg";
+import TAB7_2 from "media/industry/techstack/FHIR.svg";
+import TAB7_3 from "media/industry/techstack/DICOM.svg";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { FintechSVG, EcommerceSVG, EducationSVG, SocialSVG, RealEstateSVG, RideHailingSVG, TravelSVG, LogisticsSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -92,7 +100,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Top-Rated Healthcare App Development Company For Patient-Centered Solutions",
     content: "Doctors and healthcare providers trust us as a leading healthcare app development company with 10+ years of expertise. Our custom apps streamline scheduling, secure patient data, ensure HIPAA compliance, and meet your unique needs—so you can focus on patient care.",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -129,6 +137,7 @@ export const IndustryServiceList = [
 
 
 export const IndustryCtaContent = {
+    image: IndustryCtaImg.src,
     title: "Streamline Patient Care with Healthcare Apps",
     text: "Innovate with secure, reliable healthcare apps! Partner with BitsWits to develop apps that streamline patient care, improve communication, and enhance healthcare delivery. ",
 }
@@ -145,27 +154,27 @@ export const IndustrySliderList = [
         txt: "Our comprehensive one-stop Hospital Management Software holds everything in place from admission to discharge, patient tracking, and staff management, including collection of bills to ensure the complete efficiency of your hospital."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG02.src,
         title: "Pharmacy Management Software",
         txt: "Manage your prescription workflows seamlessly with our Pharmacy Management Software. Track inventory levels and synchronize prescription refills; orders against inventory and ensure compliance with the latest standards in the industry."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG03.src,
         title: "Health Care CRM",
         txt: "Our Health Care CRM helps with better communication, scheduling for appointments, and follow-up care. This will allow you to maintain that personal touch with each one of your patients."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG04.src,
         title: "Medical Billing Software",
         txt: "Our secure medical billing software handles billing easily for you, while at the same time, it will ensure accurate claims, efficient revenue cycles, and better financial management in general."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG05.src,
         title: "Patient Engagement Software",
         txt: "The patient engagement software keeps the patient involved with healthcare professionals anywhere, anytime. You can remind your patients of appointments, send them personalized health updates, treatment plans, and more."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG06.src,
         title: "Medical Device Integration",
         txt: "Our medical device integration software seamlessly integrates the devices with your healthcare systems to access critical patient information and real-time monitoring in an instant time while ensuring data security."
     },
@@ -354,12 +363,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
+        Icon: <HealthCareIcon01 />,
         title: (<>Proven Success <br />in Healthcare Apps</>),
         description: "BitsWits, a leading healthcare mobile app development company, has a strong track record of creating effective apps that enhance patient care and streamline healthcare services.",
     },
     {
-        Icon: <WhyChooseIcon01 />,
+        Icon: <HealthCareIcon02 />,
         title: (<>Experienced<br /> Development Team</>),
         description: "Our team of skilled healthcare app developers delivers reliable solutions that meet industry standards and regulations, ensuring high-quality mobile health app development.",
     },
@@ -367,12 +376,12 @@ export const WhyChooseList1 = [
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />,
+        Icon: <HealthCareIcon03 />,
         title: (<>Strong <br />Data Security</>),
         description: "Our apps incorporate advanced security measures to protect patient data and comply with healthcare privacy regulations, safeguarding sensitive information.",
     },
     {
-        Icon: <WhyChooseIcon02 />,
+        Icon: <HealthCareIcon04 />,
         title: (<>Scalable and<br /> Flexible Architecture</>),
         description: "We build scalable apps that can grow with your needs, accommodating increasing user demands and adapting to evolving healthcare practices.",
     }
@@ -706,56 +715,56 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "Our apps optimize fleet and shipment tracking. Integrated eCommerce lets businesses offer logistics to clients, boosting efficiency and operations.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",

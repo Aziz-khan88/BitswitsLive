@@ -83,11 +83,20 @@
                             }
 
                             .locAdd {
-                                font-size: 16px;
-                                line-height: 24px;
-                                margin-bottom: 10px;
-                                color: #fff;
-                                font-weight: 500;
+                                a {
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    margin-bottom: 10px;
+                                    color: #fff;
+                                    font-weight: 500;
+                                    transition: .3s linear;
+                                    display: block;
+
+                                    &:hover {
+                                        transition: .3s linear;
+                                        color: #F32FAF;
+                                    }
+                                }
                             }
 
                             ul {
@@ -100,11 +109,26 @@
                                         margin-bottom: 5px;
                                         color: #fff;
                                         font-weight: 500;
+                                        transition: .3s linear;
 
                                         svg {
                                             margin-right: 10px;
                                             width: 15px;
                                             height: auto;
+                                            transition: .3s linear;
+                                        }
+
+                                        &:hover {
+                                            transition: .3s linear;
+                                            color: #F32FAF;
+
+                                            svg {
+                                                transition: .3s linear;
+
+                                                path {
+                                                    fill: #F32FAF;
+                                                }
+                                            }
                                         }
                                     }
                                 }

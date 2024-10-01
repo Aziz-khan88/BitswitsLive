@@ -1,10 +1,18 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/fintech/bgBanner.webp";
+
+// IndustryCta Images
+import IndustryCtaImg from "media/industry/fintech/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/fintech/industry/Industry01.webp"
+import IndustrySliderIMG02 from "media/industry/fintech/industry/Industry02.webp"
+import IndustrySliderIMG03 from "media/industry/fintech/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/fintech/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/fintech/industry/Industry05.webp"
+import IndustrySliderIMG06 from "media/industry/fintech/industry/Industry06.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +23,13 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/fintech/techImg.webp"
 
 //========= Process Images
 import IMG from "media/services/process/tab01.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { FintechIcon01, FintechIcon02, FintechIcon03, FintechIcon04, } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,44 +43,44 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/fintech/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/02.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/HTML5.svg";
+import TAB1_2 from "media/industry/techstack/C++.svg";
+import TAB1_3 from "media/industry/techstack/CHash.svg";
+import TAB1_4 from "media/industry/techstack/JavaScript.svg";
+import TAB1_5 from "media/industry/techstack/Swift.svg";
+import TAB1_6 from "media/industry/techstack/Python.svg";
+import TAB2_1 from "media/industry/techstack/Flutter.svg";
+import TAB2_2 from "media/industry/techstack/Xamarin.svg";
+import TAB2_3 from "media/industry/techstack/Nodejs.svg";
+import TAB2_4 from "media/industry/techstack/Ionic.svg";
+import TAB2_5 from "media/industry/techstack/Phonegap.svg";
+import TAB3_1 from "media/industry/techstack/PostgreSQL.svg";
+import TAB3_2 from "media/industry/techstack/SQL.svg";
+import TAB3_3 from "media/industry/techstack/Oracle.svg";
+import TAB3_4 from "media/industry/techstack/MongoDB.svg";
+import TAB3_5 from "media/industry/techstack/ApacheNifi.svg";
+import TAB3_6 from "media/industry/techstack/MySQL.svg";
+import TAB4_1 from "media/industry/techstack/PayPal.svg";
+import TAB4_2 from "media/industry/techstack/Square.svg";
+import TAB4_3 from "media/industry/techstack/Stripe.svg";
+import TAB4_4 from "media/industry/techstack/Adyen.svg";
+import TAB5_1 from "media/industry/techstack/Docker.svg";
+import TAB5_2 from "media/industry/techstack/Kubernet.svg";
+import TAB5_3 from "media/industry/techstack/Openshift.svg";
+import TAB5_4 from "media/industry/techstack/Puppet.svg";
+import TAB6_1 from "media/industry/techstack/AWS.svg";
+import TAB6_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB6_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB6_4 from "media/industry/techstack/DigitalOcean.svg";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { AutomotiveSVG, EcommerceSVG, EducationSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, Icon08 } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
-import Fintech from "media/services/industry/Fintech.webp";
+import Automotive from "media/services/industry/Automotive.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
 import Education from "media/services/industry/Education.webp";
 import SocialMarketing from "media/services/industry/SocialMarketing.webp";
@@ -89,7 +97,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Leading Fintech App Development Company for Scalable Financial Solutions",
     content: `BitsWits is a top-grade fintech app development company that builds industry-leading fintech applications. Our tried-and-true fintech app development services help entrepreneurs and financial institutions create super-fast, intuitive, and user-centered fintech apps with impregnable security. `,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -125,6 +133,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
+    image: IndustryCtaImg.src,
     title: "Transform Your Financial Services with Custom Fintech Apps!",
     text: "Partner with BitsWits to build secure, user-friendly apps that streamline payments, investments, and transactions, boosting your business efficiency and customer trust.",
 }
@@ -137,37 +146,37 @@ export const IndustrySliderContent = {
 export const IndustrySliderList = [
     {
         img: IndustrySliderIMG01.src,
-        title: "Banking App Development ",
+        title: "Banking Apps ",
         txt: "We build fintech apps for banks and financial institutions to deliver unparalleled user experience and facilitate end users with safe and secure transactions and account management. "
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "Wealth Management App Development",
+        img: IndustrySliderIMG02.src,
+        title: "Wealth Management Apps",
         txt: "We build wealth management apps for investment tracking, financial planning tools, and portfolio management – allowing seamless asset management and market tracking. "
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "Accounting App Development",
+        img: IndustrySliderIMG03.src,
+        title: "Accounting Apps",
         txt: "We build accounting apps that simplify bookkeeping, automate invoicing, and provide real-time financial reporting with detailed, data-driven analysis for greater transparency and accuracy."
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "Digital Wallet App Development",
+        img: IndustrySliderIMG04.src,
+        title: "Digital Wallet Apps",
         txt: "We build digital wallet apps that offer secure, contactless payment facilities – with obviously the options to store and manage cards, conduct transactions, and track spending on the go."
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "Crowdfunding App Development",
+        img: IndustrySliderIMG05.src,
+        title: "Crowdfunding Apps",
         txt: "We build crowdfunding apps that eliminate the hassle of fundraising startups, nonprofits, and individuals. Launch campaigns, manage contributions, and engage supporters—all in one place."
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "Digital Wallet App Development",
+        img: IndustrySliderIMG04.src,
+        title: "Digital Wallet Apps",
         txt: "We build digital wallet apps that offer secure, contactless payment facilities – with obviously the options to store and manage cards, conduct transactions, and track spending on the go."
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "ePayment App Development",
+        img: IndustrySliderIMG06.src,
+        title: "ePayment Apps",
         txt: "We build epayment apps that offer fast and secure payment processing for businesses of all sizes – where users can make purchases, send payments, and manage transactions with ease."
     },
 ];
@@ -355,12 +364,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
+        Icon: <FintechIcon01 />,
         title: (<>Proven <br />Expertise</>),
         description: "We specialize in fintech app development, creating seamless solutions for peer-to-peer payments, blockchain integration, and digital wallets that simplify complex financial processes and drive user engagement."
     },
     {
-        Icon: <WhyChooseIcon01 />,
+        Icon: <FintechIcon02 />,
         title: (<>Top 1% Fintech <br /> Developers</>),
         description: "Our fintech developers rank in the top 1%, delivering regulation-compliant apps that meet industry standards like PCI DSS, ensuring security, reliability, and future-proof solutions for your financial needs.",
     },
@@ -368,12 +377,12 @@ export const WhyChooseList1 = [
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />,
+        Icon: <FintechIcon03 />,
         title: (<>Strong <br />Security Measures</>),
         description: "We implement advanced encryption, biometric security, and compliance with regulations like PSD2 and GDPR, ensuring the highest level of protection for user data and financial transactions.",
     },
     {
-        Icon: <WhyChooseIcon02 />,
+        Icon: <FintechIcon04 />,
         title: (<>Scalable <br /> Infrastructure</>),
         description: "Our fintech apps are built on scalable architectures, capable of handling high transaction volumes, growing with your business, and adapting to rapid technological changes in the financial industry.",
     }
@@ -588,7 +597,7 @@ export const TechStackTabs = [
                 img: TAB2_3.src,
             },
             {
-                heading: "Lonic",
+                heading: "Ionic",
                 img: TAB2_4.src,
             },
             {
@@ -698,49 +707,49 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <AutomotiveSVG />,
         title: "Automotive",
-        txt: "Our automotive solutions focus on enhancing vehicle management, customer service, and dealership operations with custom apps that streamline bookings, maintenance tracking, and user interactions.",
-        url: "#",
-        img: Fintech.src,
+        txt: "Our custom automotive apps enhance vehicle management, customer service, and dealership efficiency, streamlining bookings, maintenance, and interactions.",
+        url: "/automotive-software-development",
+        img: Automotive.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",

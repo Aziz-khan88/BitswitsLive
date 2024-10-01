@@ -1,7 +1,7 @@
 import styles from "@/styles/services/banner.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import BannerLogos from "media/services/bannerLogo.webp"
-import BanngBg from "media/services/bgBanner.webp"
+import BannerBg from "media/services/bgBanner.webp"
 import Image from "next/image"
 import ContactFrom from "@/src/components/common/contactfrom"
 import { ArrowIcon } from "@/src/app/app-constants"
@@ -12,7 +12,7 @@ const Banner = ({ setModalShow }) => {
     };
 
     return (
-        <section className={styles.bannerSection} style={{ backgroundImage: `url(${BanngBg.src})` }}>
+        <section className={styles.bannerSection} style={{ backgroundImage: `url(${BannerBg.src})` }}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={6} md={6} className="my-auto">

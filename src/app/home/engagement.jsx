@@ -1,9 +1,17 @@
+
+"use client"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/engagement.module.scss"
-import Link from "next/link"
+import { useState } from "react";
+import PopUp from "@/src/app/services/popup";
 
 
 const Engagement = ({ data, listDetail, list }) => {
+    const [modalShow, setModalShow] = useState(false);
+
+    const handleClick = () => {
+        setModalShow(true);
+    };
     return (
         <section className={`${styles.engagementSolution} p-100`}>
             <Container>
@@ -44,7 +52,7 @@ const Engagement = ({ data, listDetail, list }) => {
                                         ))}
                                     </div>
                                     <div className={styles.mainButtton}>
-                                        <Link href="">Read More</Link>
+                                        <div onClick={() => handleClick()} >Let’s Discuss!</div>
                                     </div>
                                 </div>
                             ))}
@@ -52,6 +60,7 @@ const Engagement = ({ data, listDetail, list }) => {
                     </Col>
                 </Row>
             </Container>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </section>
     )
 }

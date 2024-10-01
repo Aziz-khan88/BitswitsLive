@@ -1,15 +1,15 @@
 
 import {
-  BannerData, IndustryServiceContent, IndustryServiceList, 
+  BannerData, IndustryServiceContent, IndustryServiceList,
   IndustryCtaContent, IndustrySliderContent, IndustrySliderList,
   ExpertiseContent, ExpertiseList1, ExpertiseList2,
   TechnologiesContent, TechnologiesIcons,
-  ProcessContent, ProcessTabs, WhyChooseContent, 
-  WhyChooseList1, WhyChooseList2, OffersContent, 
-  OffersTabs, TestimonialContent, TestimonialSLIDES, 
-  FuelingContent1, FuelingList1, FuelingContent2, 
-  FuelingList2, TechStackTabs, 
-  TechStackContent, IndustriesContent, IndustriesList, 
+  ProcessContent, ProcessTabs, WhyChooseContent,
+  WhyChooseList1, WhyChooseList2, OffersContent,
+  OffersTabs, TestimonialContent, TestimonialSLIDES,
+  FuelingContent1, FuelingList1, FuelingContent2,
+  FuelingList2, TechStackTabs,
+  TechStackContent, IndustriesContent, IndustriesList,
   IdeaCtaContent, FaqsContent, FaqsList, BlogsContent,
   BlogsList
 } from "@/src/app/automotive-software-development/data/data";
@@ -38,10 +38,10 @@ export default function Page() {
   return (
     <>
       <Banner data={BannerData} />
-      <IndustryService data={IndustryServiceContent} list={IndustryServiceList}/>
-      <IndustryCta data={IndustryCtaContent}/>
-      <IndustrySlider data={IndustrySliderContent} list={IndustrySliderList}/>
-      <Expertise data={ExpertiseContent} list1={ExpertiseList1} list2={ExpertiseList2}/>
+      <IndustryService data={IndustryServiceContent} list={IndustryServiceList} />
+      <IndustryCta data={IndustryCtaContent} />
+      <IndustrySlider data={IndustrySliderContent} list={IndustrySliderList} />
+      <Expertise data={ExpertiseContent} list1={ExpertiseList1} list2={ExpertiseList2} />
       <Technologies data={TechnologiesContent} list={TechnologiesIcons} />
       <Process data={ProcessContent} tabs={ProcessTabs} />
       <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
@@ -49,12 +49,12 @@ export default function Page() {
       <Fueling data={FuelingContent1} list={FuelingList1} bgWhite={true} />
       <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
       <Fueling data={FuelingContent2} list={FuelingList2} />
-      <TechStack data={TechStackContent} tabs={TechStackTabs} />
+      {/* <TechStack data={TechStackContent} tabs={TechStackTabs} /> */}
       <Industries data={IndustriesContent} list={IndustriesList} />
       <IdeaCta data={IdeaCtaContent} />
       <Faqs data={FaqsContent} list={FaqsList} />
       <Blogs data={BlogsContent} list={BlogsList} />
-      
+
     </>
   );
 }

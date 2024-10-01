@@ -11,7 +11,7 @@ const TechStack = ({ data, tabs }) => {
     const [activeTab, setActiveTab] = useState(0);
 
     return (
-        <section className={`${styles.stackSection} p-100`}>
+        <section className={`${styles.stackSection} pt-100`}>
             <Container>
                 <Row>
                     <Col lg={7} md={12} className="text-center m-auto">

@@ -31,14 +31,7 @@ import Qatar from "media/locations/Qatar.webp"
 import Bahrain from "media/locations/Bahrain.webp"
 import Pierre from "media/locations/Pierre.webp"
 import Sharjah from "media/locations/Sharjah.webp"
-// Awards
-import IMG01 from "media/awards/1.webp"
-import IMG02 from "media/awards/2.webp"
-import IMG03 from "media/awards/3.webp"
-import IMG04 from "media/awards/4.webp"
-import IMG05 from "media/awards/5.webp"
-import IMG06 from "media/awards/6.webp"
-import IMG07 from "media/awards/7.webp"
+
 
 
 const OPTIONS = { align: 'start', loop: "true" }
@@ -150,50 +143,12 @@ const LOC = [
   },
 ]
 
-const Awards = [
-  {
-    title: "Horizon Interactive Gold Award",
-    year: "2024",
-    img: IMG01.src
-  }, {
-    title: "Top Rated App Development Companies in US",
-    year: "2024",
-    img: IMG02.src
-  },
-  {
-    title: "Top App Performers Award",
-    year: "2023",
-    img: IMG05.src
-  },
-  {
-    title: "Top Mobile App Development Company",
-    year: "2023",
-    img: IMG06.src
-  },
-  {
-    title: "Dot COMM Platinum Award",
-    year: "2023",
-    img: IMG07.src
-  },
-  {
-    title: "Clutch Global Company Award",
-    year: "2022",
-    img: IMG03.src
-  },
-  {
-    title: "High User Satisfaction Award",
-    year: "2022",
-    img: IMG04.src
-  }
-
-]
-
 
 export default function Home() {
   return (
     <>
       <Banner />
-      <Achieved slides={Awards} options={OPTIONS} />
+      <Achieved />
       <Cuttingedge />
       <CaseStudySection />
       <AppIdea />

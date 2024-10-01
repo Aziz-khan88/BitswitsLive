@@ -4,13 +4,16 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/extendedservices.module.scss"
 import { ServiceArrow } from "@/src/app/app-constants"
 import { useState } from "react";
-import Link from "next/link";
-
-
+import PopUp from "@/src/app/services/popup";
 
 
 const ExtendedServices = ({ data, list }) => {
     const [activeTab, setActiveTab] = useState(0);
+    const [modalShow, setModalShow] = useState(false);
+
+    const handleClick = () => {
+        setModalShow(true);
+    };
     return (
         <section className={`${styles.extendedServices} p-100`}>
             <Container>
@@ -55,9 +58,9 @@ const ExtendedServices = ({ data, list }) => {
                                                 ))}
                                             </ul>
                                             <div className={styles.btnSmall}>
-                                                <Link href="">
+                                                <div onClick={() => handleClick()}>
                                                     <ServiceArrow />
-                                                </Link>
+                                                </div>
                                             </div>
                                         </div>
                                     )
@@ -67,6 +70,7 @@ const ExtendedServices = ({ data, list }) => {
                     </Col>
                 </Row>
             </Container>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </section>
     )
 }

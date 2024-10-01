@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/ecommerce/bgBanner.webp";
 
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/ecommerce/ctaImage.webp"
@@ -116,7 +116,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Scalable Ecommerce App Development Company for Expanding Online Markets",
     content: "BitsWits is a leading ecommerce development company helping startups and SMBs build intuitive and scalable ecommerce apps for both iOS and Android. We offer UX-driven, custom ecommerce application development services, enabling clients to sell to a global audience and make data-driven decisions.",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -152,7 +152,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src, 
+    image: IndustryCtaImg.src,
     title: "UX-Driven eCommerce App Development Services",
     text: "Give your business an unfair advantage with our UX-driven ecommerce app development services. Expand your reach and sell more to a global audience. Let’s take your business global!",
 }

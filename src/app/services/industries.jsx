@@ -2,20 +2,15 @@
 import { ArrowIcon } from "@/src/app/app-constants";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/services/industries.module.scss";
+import Link from "next/link";
 
 
 
 
-const Industries = ({data , list}) => {
-    // Chat Code
-    const handleChatOpen = (e) => {
-        e.preventDefault();
-        if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
-            $zopim.livechat.window.show();
-        }
-    };
+const Industries = ({ data, list }) => {
+
     return (
-        <section className={`${styles.industrySection} pb-100`}>
+        <section className={`${styles.industrySection} p-100`}>
             <Container>
                 <Row>
                     <Col lg={7} md={8} className="text-center m-auto">
@@ -32,8 +27,8 @@ const Industries = ({data , list}) => {
                                 <div className={styles.industryIcon}>{item.icon}</div>
                                 <div className={styles.industryTitle}>{item.title}</div>
                                 <p>{item.txt}</p>
-                                <div className={styles.linksBtn} onClick={handleChatOpen}>
-                                    Read More <ArrowIcon />
+                                <div className={styles.linksBtn}>
+                                    <Link href={item.url}>Read More <ArrowIcon /></Link>
                                 </div>
                             </div>
                         </Col>

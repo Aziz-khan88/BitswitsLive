@@ -6,7 +6,7 @@ import ButtonCommon from "@/src/components/common/button"
 
 const Banner = ({ data }) => {
     return (
-        <section className={styles.gamebanenrSection} style={{ backgroundImage: `url(${data?.BanngBg})` }}>
+        <section className={styles.gamebanenrSection}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={6} md={8} className="my-auto">
@@ -22,6 +22,10 @@ const Banner = ({ data }) => {
                     </Col>
                 </Row>
             </Container>
+            <video autoPlay muted loop preload="auto" aria-label="Background video" className={styles.bannerVideo}>
+                <source src='/videos/gameBannerVideo.mp4' type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
         </section>
     )
 }

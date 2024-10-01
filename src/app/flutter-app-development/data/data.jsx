@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -52,8 +52,8 @@ import CtaEstimatedImg from "media/services/ctaImg.webp"
 
 //========= TechStack Images
 import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
+import TAB1_2 from "media/industry/techstack/Flutter.svg";
+import TAB1_3 from "media/industry/techstack/Flutter.svg";
 import TAB2_1 from "media/services/tech/tab2/01.webp";
 import TAB2_2 from "media/services/tech/tab2/02.webp";
 import TAB2_3 from "media/services/tech/tab2/03.webp";
@@ -61,7 +61,7 @@ import TAB2_4 from "media/services/tech/tab2/04.webp";
 import TAB2_5 from "media/services/tech/tab2/05.webp";
 import TAB2_6 from "media/services/tech/tab2/06.webp";
 import TAB2_7 from "media/services/tech/tab2/07.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
+import TAB3_1 from "media/industry/techstack/Firebase.svg";
 import TAB3_2 from "media/services/tech/tab3/02.webp";
 import TAB3_3 from "media/services/tech/tab3/03.webp";
 import TAB3_4 from "media/services/tech/tab3/04.webp";
@@ -79,7 +79,8 @@ import TAB6_3 from "media/services/tech/tab6/03.webp";
 import TAB6_4 from "media/services/tech/tab6/04.webp";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+
+import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -100,7 +101,7 @@ export const BannerData = {
     title: "Top-Grade Flutter App Development Company",
     content: "We deliver next-gen Flutter mobile apps for Android and iOS with accelerated development and cross-platform consistency. As a leading Flutter app development company, our efficient solutions offer native-like performance and interactive UIs with reduced development costs and time-to-market.",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
@@ -292,8 +293,8 @@ export const ProcessTabs = [
 
 export const TechnologiesContent = {
     title: "Strategic Advantages of Hiring BitsWits As Your Flutter Mobile App Development Company",
-    text: (<><p>BitsWits is a premier <strong>Flutter app development company in USA</strong> that provides top-tier mobile solutions to enhance user engagement and drive market competitiveness. </p>
-        <p>Our experienced <strong>Flutter app developers</strong> focus on cross-platform development, intuitive UI/UX design, and fast development cycles. </p>
+    text: (<><p>BitsWits is a premier Flutter app development company in USA that provides top-tier mobile solutions to enhance user engagement and drive market competitiveness. </p>
+        <p>Our experienced Flutter app developersfocus on cross-platform development, intuitive UI/UX design, and fast development cycles. </p>
         <p>We deliver scalable and secure solutions, with smooth integration of third-party services, making your app a standout in a competitive market.</p>
     </>),
 
@@ -535,7 +536,7 @@ export const TechStackTabs = [
         title: "Backend and Database",
         content: [
             {
-                heading: "Firebase Realtime Database",
+                heading: "Firebase",
                 img: TAB3_1.src,
             },
             {
@@ -623,64 +624,66 @@ export const IndustriesContent = {
     text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
+
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",
         img: Travel.src,
     },
 ];
+
 
 export const IdeaCtaContent = {
     title: (<>Let’s Change<br /> The World With Your</>),

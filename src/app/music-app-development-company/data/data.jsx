@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/music/bgBanner.webp";
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/music/ctaImage.webp"
 // Location Images
@@ -50,42 +50,42 @@ import FuelingImg1 from "media/industry/music/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/Reactjs.svg";
+import TAB1_2 from "media/industry/techstack/Angular.svg";
+import TAB1_3 from "media/industry/techstack/Vuejs.svg";
+import TAB1_4 from "media/industry/techstack/HTML5.svg";
+import TAB1_5 from "media/industry/techstack/CSS3.svg";
+import TAB1_6 from "media/industry/techstack/JavaScript.svg";
+import TAB2_1 from "media/industry/techstack/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/Python.svg";
+import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
+import TAB2_4 from "media/industry/techstack/Java.svg";
+import TAB2_5 from "media/industry/techstack/DotNET.svg";
+import TAB2_6 from "media/industry/techstack/PHP.svg";
+import TAB3_1 from "media/industry/techstack/Swift.svg";
+import TAB3_2 from "media/industry/techstack/Kotlin.svg";
+import TAB3_3 from "media/industry/techstack/ReactNative.svg";
+import TAB3_4 from "media/industry/techstack/Flutter.svg";
+import TAB3_5 from "media/industry/techstack/Xamarin.svg";
+import TAB3_6 from "media/industry/techstack/Ionic.svg";
+import TAB4_1 from "media/industry/techstack/MySQL.svg";
+import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB4_3 from "media/industry/techstack/MongoDB.svg";
+import TAB4_4 from "media/industry/techstack/SQLite.svg";
+import TAB4_5 from "media/industry/techstack/Redis.svg";
+import TAB4_6 from "media/industry/techstack/Oracle.svg";
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_4 from "media/industry/techstack/Heroku.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB5_6 from "media/industry/techstack/Firebase.svg";
+import TAB6_1 from "media/industry/techstack/GoogleMapsAPI.svg";
+import TAB6_2 from "media/industry/techstack/MLSIntegration.svg";
+import TAB6_3 from "media/industry/techstack/PropertyListingAPIs.svg";
+import TAB6_4 from "media/industry/techstack/Stripe-PayPal.svg";
+import TAB6_5 from "media/industry/techstack/CRMSystems.svg";
+import TAB6_6 from "media/industry/techstack/DataAnalyticsTools.svg";
 
 //========= Industries Images
 import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG, } from "@/src/app/app-constants";
@@ -107,7 +107,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Music App Development Company for High-Performance Streaming Apps",
     content: "Say hello to next-gen music app development services. Build your music streaming paradise to compete with giants like Spotify, and Apple Music. Connect with millions of souls excited to groove to their favorite music through your own music app. .",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -693,7 +693,6 @@ export const TechStackTabs = [
         ],
     }
 ];
-
 export const IndustriesContent = {
     title: "Industries We Serve",
     text: "As a top-grade music app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",

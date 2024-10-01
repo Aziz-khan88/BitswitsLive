@@ -1805,12 +1805,6 @@ input::-webkit-inner-spin-button {
   font-weight: 300;
 }
 
-.modal-content {
-  outline: 0;
-  border-radius: unset !important;
-  width: 550px !important;
-  margin-top: 100px;
-}
 
 .thanksgiving .modal-content {
   background: #000 url(/images/thanksGiving/thnksBg.png);

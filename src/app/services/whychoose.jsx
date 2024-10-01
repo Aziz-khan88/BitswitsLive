@@ -49,7 +49,6 @@ const WhyChoose = ({ data, list1, list2 }) => {
 
                     </Col>
                 </Row>
-
             </Container>
         </section>
     )

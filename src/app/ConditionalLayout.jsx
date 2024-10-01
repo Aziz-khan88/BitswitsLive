@@ -65,6 +65,8 @@ const isDarkHeader = [
     "/nft-game-development-company",
     "/ai-development-company",
     "/blockchain-game-development-company",
+    "/mobile-application-development-services",
+    "/lp/mobile-application-development-services",
     "/portfolio",
     "/contact-us",
     "/bitswits-services-page-1",

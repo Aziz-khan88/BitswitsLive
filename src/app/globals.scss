@@ -192,6 +192,7 @@ li {
     width: 250px;
     position: relative;
     z-index: 1;
+    cursor: pointer;
 
     &.white {
         &::before {
@@ -326,8 +327,7 @@ li {
             #f32faf 18.3%,
             #4a78ef 110.98%);
     border-radius: 64px;
-
-
+    cursor: pointer;
 
     a,
     div.linksBtn {
@@ -1157,9 +1157,9 @@ li {
     }
 
     h5 {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 600;
-        line-height: 28px;
+        line-height: 27px;
         margin-bottom: 10px;
     }
 
@@ -1310,8 +1310,8 @@ li {
     }
 
     h5 {
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 17px;
+        line-height: 25px;
         margin-bottom: 10px;
     }
 

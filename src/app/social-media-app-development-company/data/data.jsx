@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/social/bgBanner.webp";
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/social/ctaImage.webp"
 
@@ -54,43 +54,46 @@ import FuelingImg1 from "media/industry/social/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/Reactjs.svg";
+import TAB1_2 from "media/industry/techstack/Angular.svg";
+import TAB1_3 from "media/industry/techstack/Vuejs.svg";
+import TAB1_4 from "media/industry/techstack/HTML5.svg";
+import TAB1_5 from "media/industry/techstack/CSS3.svg";
+import TAB1_6 from "media/industry/techstack/JavaScript.svg";
+import TAB2_1 from "media/industry/techstack/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/Python.svg";
+import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
+import TAB2_4 from "media/industry/techstack/Java.svg";
+import TAB2_5 from "media/industry/techstack/DotNET.svg";
+import TAB2_6 from "media/industry/techstack/PHP.svg";
 
+import TAB3_1 from "media/industry/techstack/Swift.svg";
+import TAB3_2 from "media/industry/techstack/Kotlin.svg";
+import TAB3_3 from "media/industry/techstack/ReactNative.svg";
+import TAB3_4 from "media/industry/techstack/Flutter.svg";
+import TAB3_5 from "media/industry/techstack/Xamarin.svg";
+import TAB3_6 from "media/industry/techstack/Ionic.svg";
+
+import TAB4_1 from "media/industry/techstack/MySQL.svg";
+import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB4_3 from "media/industry/techstack/MongoDB.svg";
+import TAB4_4 from "media/industry/techstack/SQLite.svg";
+import TAB4_5 from "media/industry/techstack/Redis.svg";
+import TAB4_6 from "media/industry/techstack/Oracle.svg";
+
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_4 from "media/industry/techstack/Heroku.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB5_6 from "media/industry/techstack/Firebase.svg";
+
+import TAB6_1 from "media/industry/techstack/Stripe.svg";
+import TAB6_2 from "media/industry/techstack/PayPal.svg";
+import TAB6_3 from "media/industry/techstack/Braintree.svg";
+import TAB6_4 from "media/industry/techstack/Square.svg";
+import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
+import TAB6_6 from "media/industry/techstack/ApplePay.svg";
 //========= Industries Images
 import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, MusicSVG, RealEstateSVG, RideHailingSVG, TravelSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
@@ -111,7 +114,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Transform Engagement with a Leading Social Media App Development Company",
     content: "We create feature-rich social media applications that have 100 million Monthly Average Users (MAUs). Our social media app developers use modern coding practices to develop user-friendly social media apps that directly compete with social juggernauts like Meta, X, and YouTube. ",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -175,7 +178,7 @@ export const IndustrySliderList = [
     },
     {
         img: IndustrySliderIMG04.src,
-        title: "Relationship-Building or Dating Apps",
+        title: "Relationship-Building Apps",
         txt: "Connect securely and build relationships on our mobile dating apps with advanced verification and geolocation, ensuring user safety and a seamless experience for meaningful connections."
     },
     {
@@ -553,26 +556,26 @@ export const TechStackContent = {
 
 export const TechStackTabs = [
     {
-        title: "Programming Languages",
+        title: "Frontend",
         content: [
             {
-                heading: "Kotlin",
+                heading: "React.js",
                 img: TAB1_1.src,
             },
             {
-                heading: "Java",
+                heading: "Angular",
                 img: TAB1_2.src,
             },
             {
-                heading: "Swift",
+                heading: "Vue.js",
                 img: TAB1_3.src,
             },
             {
-                heading: "Objective-C",
+                heading: "HTML5",
                 img: TAB1_4.src,
             },
             {
-                heading: "Dart",
+                heading: "CSS3",
                 img: TAB1_5.src,
             },
             {
@@ -582,132 +585,148 @@ export const TechStackTabs = [
         ],
     },
     {
-        title: "Notifications",
+        title: "Backend",
         content: [
             {
-                heading: "Google Cloud Messaging",
+                heading: "Node.js",
                 img: TAB2_1.src,
             },
             {
-                heading: "Apple Push Notifications",
+                heading: "Python",
                 img: TAB2_2.src,
             },
             {
-                heading: "Firebase Cloud Messaging",
+                heading: "Ruby on Rails",
                 img: TAB2_3.src,
             },
             {
-                heading: "OneSignal",
+                heading: "Java",
                 img: TAB2_4.src,
-            }
+            },
+            {
+                heading: ".NET Core",
+                img: TAB2_5.src,
+            },
+            {
+                heading: "PHP ",
+                img: TAB2_6.src,
+            },
         ],
     },
     {
-        title: "Database Management",
+        title: "Mobile Development",
         content: [
             {
-                heading: "MongoDB",
+                heading: "Swift",
                 img: TAB3_1.src,
             },
             {
-                heading: "SQL",
+                heading: "Kotlin ",
                 img: TAB3_2.src,
             },
             {
-                heading: "MySQL",
+                heading: "React Native",
                 img: TAB3_3.src,
             },
             {
-                heading: "Core Data",
+                heading: "Flutter",
                 img: TAB3_4.src,
             },
             {
-                heading: "SQLite",
+                heading: "Xamarin",
                 img: TAB3_5.src,
             },
             {
-                heading: "Firebase Realtime Database",
+                heading: "Ionic",
                 img: TAB3_6.src,
-            }
+            },
         ],
     },
     {
-        title: "Storage",
+        title: "Database",
         content: [
             {
-                heading: "Amazon S3",
+                heading: "MySQL",
                 img: TAB4_1.src,
             },
             {
-                heading: "Azure Server",
+                heading: "PostgreSQL",
                 img: TAB4_2.src,
             },
             {
-                heading: "iCloud",
+                heading: "MongoDB",
                 img: TAB4_3.src,
             },
             {
-                heading: "Google Cloud Storage",
+                heading: "SQLite",
                 img: TAB4_4.src,
             },
             {
-                heading: "Firebase Storage",
+                heading: "Redis",
                 img: TAB4_5.src,
-            }
+            },
+            {
+                heading: "Oracle",
+                img: TAB4_6.src,
+            },
         ],
     },
     {
-        title: "IDE",
+        title: "Cloud Platforms",
         content: [
             {
-                heading: "Android Studio",
+                heading: "AWS ",
                 img: TAB5_1.src,
             },
             {
-                heading: "Xcode",
+                heading: "Google Cloud Platform",
                 img: TAB5_2.src,
             },
             {
-                heading: "Xamarin",
+                heading: "Microsoft Azure",
                 img: TAB5_3.src,
             },
             {
-                heading: "Visual Studio",
+                heading: "Heroku",
                 img: TAB5_4.src,
             },
             {
-                heading: "IntelliJ IDEA",
+                heading: "DigitalOcean",
                 img: TAB5_5.src,
-            }
+            },
+            {
+                heading: "Firebase",
+                img: TAB5_6.src,
+            },
         ],
     },
     {
-        title: "Analytics",
+        title: "Integration Services",
         content: [
             {
-                heading: "Azure Stream Analytics",
+                heading: "Google Maps API",
                 img: TAB6_1.src,
             },
             {
-                heading: "MixPanel",
+                heading: "MLS Integration",
                 img: TAB6_2.src,
             },
             {
-                heading: "App Analytics",
+                heading: "Property Listing APIs",
                 img: TAB6_3.src,
             },
             {
-                heading: "Firebase Analytics",
+                heading: "Payment Gateways ",
                 img: TAB6_4.src,
             },
             {
-                heading: "Flurry",
+                heading: "CRM Systems",
                 img: TAB6_5.src,
             },
             {
-                heading: "Google Analytics for Firebase",
+                heading: "Data Analytics Tools",
                 img: TAB6_6.src,
-            }
+            },
         ],
     }
 ];

@@ -1,10 +1,18 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/logistics/bgBanner.webp";
+
+// IndustryCta Images
+import IndustryCtaImg from "media/industry/logistics/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/logistics/industry/Industry01.webp"
+import IndustrySliderIMG02 from "media/industry/logistics/industry/Industry02.webp"
+import IndustrySliderIMG03 from "media/industry/logistics/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/logistics/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/logistics/industry/Industry05.webp"
+import IndustrySliderIMG06 from "media/industry/logistics/industry/Industry06.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +23,13 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/logistics/techImg.webp"
 
 //========= Process Images
 import IMG from "media/services/process/tab01.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { LogisticsIcon01, LogisticsIcon02, LogisticsIcon03, LogisticsIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,57 +43,57 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/logistics/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB1_7 from "media/services/tech/tab1/02.webp";
-import TAB1_8 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB2_7 from "media/services/tech/tab2/05.webp";
-import TAB2_8 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/01.webp";
-import TAB3_7 from "media/services/tech/tab3/02.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/02.webp";
-import TAB5_6 from "media/services/tech/tab5/03.webp";
-import TAB5_7 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/01.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
-import TAB6_7 from "media/services/tech/tab6/03.webp";
-import TAB6_8 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/Angular.svg";
+import TAB1_2 from "media/industry/techstack/JavaScript.svg";
+import TAB1_3 from "media/industry/techstack/Reactjs.svg";
+import TAB1_4 from "media/industry/techstack/Bootstrap.svg";
+import TAB1_5 from "media/industry/techstack/Vuejs.svg";
+import TAB1_6 from "media/industry/techstack/HTML5-CSS3.svg";
+import TAB1_7 from "media/industry/techstack/TypeScript.svg";
+import TAB1_8 from "media/industry/techstack/Svelte.svg";
+import TAB2_1 from "media/industry/techstack/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/Python.svg";
+import TAB2_3 from "media/industry/techstack/Expressjs.svg";
+import TAB2_4 from "media/industry/techstack/Java.svg";
+import TAB2_5 from "media/industry/techstack/SpringBoot.svg";
+import TAB2_6 from "media/industry/techstack/Go.svg";
+import TAB2_7 from "media/industry/techstack/RubyOnRails.svg";
+import TAB2_8 from "media/industry/techstack/DotNET.svg";
+import TAB3_1 from "media/industry/techstack/MySQL.svg";
+import TAB3_2 from "media/industry/techstack/Oracle.svg";
+import TAB3_3 from "media/industry/techstack/MongoDB.svg";
+import TAB3_4 from "media/industry/techstack/PostgreSQL.svg";
+import TAB3_5 from "media/industry/techstack/MSSQL.svg";
+import TAB3_6 from "media/industry/techstack/Redis.svg";
+import TAB3_7 from "media/industry/techstack/CouchDB.svg";
+import TAB4_1 from "media/industry/techstack/AWS.svg";
+import TAB4_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB4_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB4_4 from "media/industry/techstack/IBMCloud.svg";
+import TAB4_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB4_6 from "media/industry/techstack/Heroku.svg";
+import TAB5_1 from "media/industry/techstack/ApacheKafka.svg";
+import TAB5_2 from "media/industry/techstack/AmazonElasticSearch.svg";
+import TAB5_3 from "media/industry/techstack/MongoDB.svg";
+import TAB5_4 from "media/industry/techstack/AmazonDocumentDB.svg";
+import TAB5_5 from "media/industry/techstack/DynamoDB.svg";
+import TAB5_6 from "media/industry/techstack/ApacheHadoop.svg";
+import TAB5_7 from "media/industry/techstack/ApacheSpark.svg";
+import TAB6_1 from "media/industry/techstack/Kubernet.svg";
+import TAB6_2 from "media/industry/techstack/Jenkins.svg";
+import TAB6_3 from "media/industry/techstack/Chef.svg";
+import TAB6_4 from "media/industry/techstack/Maven.svg";
+import TAB6_5 from "media/industry/techstack/Docker.svg";
+import TAB6_6 from "media/industry/techstack/Ansible.svg";
+import TAB6_7 from "media/industry/techstack/Terraform.svg";
+import TAB6_8 from "media/industry/techstack/GitLabCI-CD.svg";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { FintechSVG, TravelSVG, EcommerceSVG, EducationSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -104,7 +112,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Future-Ready Logistics Software Development Company for Efficient Systems",
     content: "BitsWits is a results-focused logistics software development company committed to streamlining workflows, reducing costs, and overcoming operational challenges. We optimize transportation processes and fleet management, helping your logistics operations run smoothly and efficiently for enhanced overall productivity.",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -115,11 +123,11 @@ export const IndustryServiceContent = {
 export const IndustryServiceList = [
     {
         title: (<>Logistics Mobile <br /> Application Development</>),
-        txt: "We develop logistics mobile applications that offer real-time communication, GPS tracking, RFID cargo identification, and push notifications to streamline operations and improve decision-making.",
+        txt: "We create logistics apps with real-time communication, GPS tracking, RFID cargo ID, and push alerts to optimize operations and enhance decision-making in transport.",
     },
     {
         title: (<>Custom Logistics<br />Software Solutions</>),
-        txt: "We provide custom logistics software solutions, from conceptualization to MVP creation, integrating advanced features for warehouse and inventory management to streamline operations efficiently.",
+        txt: "We provide custom logistics software solutions, from concept to MVP, with advanced warehouse and inventory management features to optimize operations efficiently.",
     },
     {
         title: (<>Prototype and <br />MVP Creation</>),
@@ -127,19 +135,20 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Predictive Analytics for<br /> Logistics Optimization</>),
-        txt: "We implement advanced predictive analytics in logistics software to enhance forecasting, optimize supply chains, and reduce operational inefficiencies, leading to smarter decision-making and cost savings.",
+        txt: "We integrate advanced predictive analytics in logistics software to improve forecasting, optimize supply chains, and cut inefficiencies, driving smarter decisions & cost savings.",
     },
     {
         title: (<>AI-Driven Route<br />Optimization</>),
-        txt: "Our AI-driven route optimization solutions use real-time data to minimize delivery times, reduce fuel consumption, and improve fleet efficiency, ensuring your logistics operations run at peak performance.",
+        txt: "Our AI-driven route optimizer uses real-time data to minimize delivery times, save fuel, and boost fleet efficiency, maximizing logistics performance.",
     },
     {
         title: (<>Strategic Logistics<br />Software Consultation</>),
-        txt: "Our strategic logistics software consultation helps optimize logistics operations, enhance supply chain efficiency, reduce costs, and improve service delivery for sustainable growth.",
+        txt: "Our logistics software consultation helps optimize operations, boosts supply chain efficiency, reduce costs, and enhances service delivery for sustainable growth.",
     },
 ];
 
 export const IndustryCtaContent = {
+    image: IndustryCtaImg.src,
     title: "Streamline Your Logistics with Advanced Software Solutions!",
     text: "Join BitsWits to optimize your supply chain and fleet management for faster, more efficient logistics operations.",
 }
@@ -156,27 +165,27 @@ export const IndustrySliderList = [
         txt: "Our inventory management solutions offer real-time visibility and control over stock levels, enabling accurate demand forecasting and efficient replenishment processes. With advanced inventory tracking, businesses can meet customer demand seamlessly while optimizing overall logistics operations."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG02.src,
         title: "Warehouse Management",
         txt: "We provide warehouse management solutions that improve inventory control and streamline order fulfillment. Our system enhances operational efficiency through agile picking and packing processes, helping businesses boost productivity and achieve better warehouse performance."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG03.src,
         title: "Transportation Management",
         txt: "As a leading transportation software development company, we optimize fleet management with intelligent routing and real-time shipment tracking. Our transportation software development services provide visibility and control, reducing costs and improving delivery times."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG04.src,
         title: "Fleet Management",
         txt: "We offer fleet management solutions utilizing GPS and RFID technologies for real-time tracking, route optimization, and maintenance scheduling. Our system enhances fleet operations, improving efficiency and reducing downtime for logistics businesses."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG05.src,
         title: "Order Management",
         txt: "Our order management solutions streamline order fulfillment with real-time inventory tracking, precise shipping, and efficient handling of on-demand requests. These systems optimize fleet allocation, driving smoother logistics operations and improved performance."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG06.src,
         title: "Supply Chain Management",
         txt: "We develop custom supply chain management software incorporating blockchain and IoT, enhancing visibility, optimizing inventory, and making logistics operations more responsive for improved efficiency and seamless supply chain management."
     },
@@ -375,12 +384,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
+        Icon: <LogisticsIcon01 />,
         title: (<>Agile Development  <br />Methodology</>),
         description: "As a leading logistics software development company, we use agile methodologies to deliver adaptable, efficient solutions that optimize logistics operations.",
     },
     {
-        Icon: <WhyChooseIcon01 />,
+        Icon: <LogisticsIcon02 />,
         title: (<>Skilled Logistics <br /> Software Developers</>),
         description: "Our expert logistics software developers specialize in TMS, real-time tracking, and multi-modal logistics integration, ensuring seamless connectivity across diverse logistics systems.",
     },
@@ -388,12 +397,12 @@ export const WhyChooseList1 = [
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />,
+        Icon: <LogisticsIcon03 />,
         title: (<>Tailored Solutions <br />for Business Efficiency</>),
         description: "BitsWits develops custom logistics software that enhances supply chain management, reduces costs, and improves operational efficiency for long-term growth.",
     },
     {
-        Icon: <WhyChooseIcon02 />,
+        Icon: <LogisticsIcon04 />,
         title: (<>Proven Success in<br /> Logistics Software</>),
         description: "With expertise in fleet route optimization and cross-border compliance, we consistently deliver solutions that ensure reliable logistics operations.",
     }
@@ -771,56 +780,56 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",

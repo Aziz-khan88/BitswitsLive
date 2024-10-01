@@ -44,11 +44,11 @@ export default function Home() {
             <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
             <ContentSecLG data={ContentSecLGContent} />
             <IdeaCta data={IdeaCtaContent} />
-            <TechStack data={TechStackContent} tabs={TechStackTabs} />
+            {/* <TechStack data={TechStackContent} tabs={TechStackTabs} /> */}
             <Fueling data={FuelingContent} list={FuelingList} />
             <Faqs data={FaqsContent} list={FaqsList} />
             <Blogs data={BlogsContent} list={BlogsList} />
-            
+
         </>
     );
 }

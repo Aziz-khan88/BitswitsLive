@@ -41,8 +41,10 @@
 
                             p {
                                 color: #9098A1;
-                                height: 170px;
+                                height: 125px;
                                 overflow: auto;
+                                font-size: 15px;
+                                line-height: 24px;
 
                                 &::-webkit-scrollbar {
                                     width: 0px;
@@ -112,16 +114,22 @@
                         padding-left: 15px;
 
                         .sliderBox {
-                            width: 360px;
+                            width: 380px;
                             border-radius: 10px;
                             border: 1px solid #CECECE;
 
                             .sliderImg {
-                                height: 200px;
+                                height: 220px;
                             }
 
                             .sliderTxt {
                                 padding: 0px 20px;
+
+                                p {
+                                    height: 130px;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                }
                             }
                         }
 
@@ -165,15 +173,22 @@
                         padding-left: 12px;
 
                         .sliderBox {
-                            width: 320px;
+                            width: 340px;
                             border-radius: 10px;
 
                             .sliderImg {
-                                height: 180px;
+                                height: 200px;
                             }
 
                             .sliderTxt {
                                 padding: 0px 15px;
+
+                                p {
+                                    height: 120px;
+                                    font-size: 14px;
+                                    line-height: 22px;
+
+                                }
                             }
                         }
 
@@ -226,6 +241,12 @@
 
                             .sliderTxt {
                                 padding: 0px 15px;
+
+                                p {
+                                    height: 120px;
+                                    font-size: 13px;
+                                    line-height: 22px;
+                                }
                             }
                         }
 
@@ -278,6 +299,13 @@
 
                             .sliderTxt {
                                 padding: 0px 15px;
+
+                                p {
+                                    height: 120px;
+                                    font-size: 13px;
+                                    line-height: 22px;
+
+                                }
                             }
                         }
 
@@ -330,6 +358,13 @@
 
                             .sliderTxt {
                                 padding: 0px 15px;
+
+                                p {
+                                    height: 120px;
+                                    font-size: 13px;
+                                    line-height: 22px;
+                                    margin-bottom: 20px;
+                                }
                             }
                         }
 
@@ -382,6 +417,13 @@
 
                             .sliderTxt {
                                 padding: 0px 15px;
+
+                                p {
+                                    height: 120px;
+                                    font-size: 13px;
+                                    line-height: 22px;
+                                    margin-bottom: 20px;
+                                }
                             }
                         }
 

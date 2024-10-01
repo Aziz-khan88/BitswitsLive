@@ -76,7 +76,7 @@ const Industries = ({ data, slides, options }) => {
                                                     <h5>{item.title}</h5>
                                                     <p>{item.txt}</p>
                                                     <div className={styles.viewLinks}>
-                                                        <Link href="">
+                                                        <Link href={item.url}>
                                                             <span className={styles.btnBox}><ServiceArrow /></span>
                                                         </Link>
                                                     </div>
