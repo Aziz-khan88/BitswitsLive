@@ -1,6 +1,6 @@
 import styles from "@/styles/services/popup.module.scss"
 import { Col, Container, Modal, Row } from "react-bootstrap"
-import BGIMG from "media/popupImg.webp"
+import BGIMG from "media/newImage.webp"
 import Image from "next/image"
 import { ClosedBtn } from "@/src/app/app-constants"
 import ContactFrom from "@/src/components/common/contactfrom"
