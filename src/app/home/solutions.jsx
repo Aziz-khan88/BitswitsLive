@@ -1,10 +1,18 @@
+
+"use client"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/solutions.module.scss"
-import Link from "next/link"
+import PopUp from "@/src/app/services/popup";
 import { ServiceArrow } from "@/src/app/app-constants"
+import { useState } from "react";
 
- 
+
 const Solutions = ({ data, list }) => {
+    const [modalShow, setModalShow] = useState(false);
+
+    const handleClick = () => {
+        setModalShow(true);
+    };
     return (
         <section className={`${styles.solutionsSection} p-100`}>
             <Container>
@@ -22,15 +30,16 @@ const Solutions = ({ data, list }) => {
                         <Col lg={3} md={4} key={index}>
                             <div className={styles.solutoinBox}>
                                 <div className={styles.title}>{item.title}</div>
-                                <Link href="" className={styles.Link}>
+                                <div className={styles.Link} onClick={() => handleClick()}>
                                     <span className={styles.btnBox}><ServiceArrow /></span>
-                                </Link>
+                                </div>
                             </div>
                         </Col>
                     ))}
 
                 </Row>
             </Container>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </section>
     )
 }

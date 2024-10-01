@@ -5,7 +5,7 @@ import Link from "next/link"
 
 
 
-const HomeServices = ({data, list}) => {
+const HomeServices = ({ data, list }) => {
     return (
         <section className={`${styles.homeServices} p-100`}>
             <Container>
@@ -32,7 +32,7 @@ const HomeServices = ({data, list}) => {
                                             0{index + 1}
                                         </div>
                                         <div className={styles.viewLinks}>
-                                            <Link href="">View Service <span className={styles.btnBox}><ServiceArrow /></span></Link>
+                                            <Link href={item?.url}>View Service <span className={styles.btnBox}><ServiceArrow /></span></Link>
                                         </div>
                                     </div>
                                 </div>

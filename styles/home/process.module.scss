@@ -57,10 +57,12 @@
                 height: 0px;
                 width: 100%;
 
-                a {
+                a,
+                div {
                     color: #fff;
                     font-size: 18px;
                     font-weight: 500;
+                    cursor: pointer;
 
                     .btnBox {
                         border-radius: 64px;

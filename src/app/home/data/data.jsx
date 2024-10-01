@@ -38,27 +38,33 @@ export const HomeServicesContent = {
 export const HomeServicesList = [
     {
         title: "Mobile App Development",
-        txt: "We have expertise in both native and cross-platform mobile app development for Android and iOS. Using Kotlin, Java, Swift, and Xcode for native apps, and Flutter or React Native for cross-platform, we deliver custom solutions across 30+ industries!"
+        txt: "We provide end-to-end mobile app development services, from ideation to deployment. Our team ensures optimal UI/UX design, robust backend architecture, and post-launch support, delivering secure and high-performing apps for various business needs.",
+        url: "/mobile-application-development-services"
     },
     {
-        title: "Software Development",
-        txt: "We design bespoke software solutions to meet your business’s unique needs. With expertise in technologies like Python, Java, and .NET, we build scalable, high-performance applications that streamline operations and enhance overall productivity."
+        title: "Android App Development",
+        txt: "We specialize in Android app development using Java and Kotlin, building high-performance apps optimized for the Google Play Store. Our custom solutions support diverse industries and deliver smooth user experiences across all Android devices.",
+        url: "/android-app-development-company"
     },
     {
-        title: "Enterprise Consulting",
-        txt: "We provide businesses with expert guidance on platforms like HubSpot, Salesforce, and other leading CRMs. We help streamline processes, optimize workflows, and integrate advanced tools to improve customer management, marketing automation, and overall business efficiency, empowering you to drive sustainable growth."
+        title: "iOS App Development",
+        txt: "Our iOS app development expertise includes Swift and Xcode, creating secure apps for the App Store. We build custom iOS apps that enhance user engagement and performance, providing exceptional UX across iPhones, iPads, and other Apple devices.",
+        url: "/ios-app-development-company"
     },
     {
-        title: "Game App Development",
-        txt: "Our game app development services span 15+ genres, offering immersive 2D and 3D gameplay. Using advanced technologies like Unity, Unreal, and Godot, we create optimized, smooth-running games tailored for all screen sizes and devices."
+        title: "Cross Platform App Development",
+        txt: "We deliver cross-platform apps using Flutter and React Native, providing businesses with scalable solutions. Our apps work efficiently across iOS, Android, and other platforms, reducing development time and costs while maintaining quality.",
+        url: "/cross-platform-app-development-services"
     },
     {
-        title: "Web Development",
-        txt: "We provide comprehensive web development services, from dynamic websites to advanced web applications. Using technologies like HTML, CSS, JavaScript, React, and Node.js, we create responsive, high-performance websites tailored to diverse industries."
+        title: "Mobile Game Development",
+        txt: "Our game app development services span 15+ genres, offering immersive 2D and 3D gameplay. Using advanced technologies like Unity, Unreal, and Godot, we create optimized, smooth-running games tailored for all screen sizes and devices.",
+        url: "/mobile-game-development-company"
     },
     {
-        title: "Staff Augmentation",
-        txt: "Our services help you scale your teams with highly skilled professionals. Whether you need temporary support or long-term talent, our experts seamlessly integrate with your in-house team, providing the flexibility to meet project demands and ensuring you stay ahead of your goals."
+        title: "Blockchain App Development",
+        txt: "We develop blockchain apps with secure, decentralized technologies, supporting industries like finance, healthcare, and supply chain. Using Ethereum, Hyperledger, and smart contracts, we bring transparency and automation to your blockchain app.",
+        url: "/blockchain-game-development-company"
     }
 ]
 

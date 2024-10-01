@@ -1,10 +1,18 @@
+
+"use client"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/process.module.scss"
 import { ServiceArrow } from "@/src/app/app-constants"
-import Link from "next/link"
+import PopUp from "@/src/app/services/popup";
+import { useState } from "react";
 
 
 const Process = ({ data, list }) => {
+    const [modalShow, setModalShow] = useState(false);
+
+    const handleClick = () => {
+        setModalShow(true);
+    };
     return (
         <section className={`${styles.processSec} p-100`}>
             <Container>
@@ -30,7 +38,7 @@ const Process = ({ data, list }) => {
                                         <p>{item.txt}</p>
                                     </div>
                                     <div className={styles.viewLinks}>
-                                        <Link href="">View More <span className={styles.btnBox}><ServiceArrow /></span></Link>
+                                        <div onClick={() => handleClick()}>Let’s Discuss! <span className={styles.btnBox}><ServiceArrow /></span></div>
                                     </div>
                                 </div>
                             ))}
@@ -38,6 +46,7 @@ const Process = ({ data, list }) => {
                     </Col>
                 </Row>
             </Container>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </section>
     )
 }
