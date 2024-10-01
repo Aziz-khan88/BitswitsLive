@@ -359,47 +359,56 @@ export const IndustriesSLIDES = [
     {
         title: "Healthcare",
         icon: <Healthcare />,
-        txt: "We specialize in EHR integration, telemedicine platforms, and HIPAA-compliant solutions, enhancing patient care, optimizing workflows, and improving data management for healthcare providers across the sector."
+        txt: "We specialize in EHR integration, telemedicine platforms, and HIPAA-compliant solutions, enhancing patient care, optimizing workflows, and improving data management for healthcare providers across the sector.",
+        url: "/healthcare-app-development-services",
     },
     {
         title: "FinTech",
         icon: <FinTech />,
-        txt: "We develop secure, scalable FinTech platforms for financial institutions, covering payment processing, digital wallets and regulatory compliance. Our solutions streamline transactions, enhance services, and ensure robust data security."
+        txt: "We develop secure, scalable FinTech platforms for financial institutions, covering payment processing, digital wallets and regulatory compliance. Our solutions streamline transactions, enhance services, and ensure robust data security.",
+        url: "/fintech-app-development",
     },
     {
         title: "Education",
         icon: <Education />,
-        txt: "Our expertise lies in building scalable e-learning platforms with LMS integration, adaptive learning tools, and real-time analytics, designed to boost student engagement and improve learning outcomes across institutions."
+        txt: "Our expertise lies in building scalable e-learning platforms with LMS integration, adaptive learning tools, and real-time analytics, designed to boost student engagement and improve learning outcomes across institutions.",
+        url: "/education-app-development",
     },
     {
         title: "Real Estate",
         icon: <RealEstate />,
-        txt: "Delivering powerful tools like CRM integration, property management systems, and IDX-powered solutions, we streamline real estate transactions, elevate client interactions, and increase property visibility."
+        txt: "Delivering powerful tools like CRM integration, property management systems, and IDX-powered solutions, we streamline real estate transactions, elevate client interactions, and increase property visibility.",
+        url: "/real-estate-app-development-company",
     },
     {
         title: "Automotive",
         icon: <Automotive />,
-        txt: "With in-depth knowledge of telematics, vehicle connectivity, and fleet management systems, we provide solutions that enhance automotive performance, streamline logistics, and accelerate advancements in the mobility sector."
+        txt: "With in-depth knowledge of telematics, vehicle connectivity, and fleet management systems, we provide solutions that enhance automotive performance, streamline logistics, and accelerate advancements in the mobility sector.",
+        url: "/automotive-software-development",
     },
     {
         title: "Music",
         icon: <Music />,
-        txt: "We build robust music platforms featuring advanced streaming capabilities, copyright management, and real-time analytics, empowering artists and businesses to engage listeners and drive revenue effectively."
+        txt: "We build robust music platforms featuring advanced streaming capabilities, copyright management, and real-time analytics, empowering artists and businesses to engage listeners and drive revenue effectively.",
+        url: "/music-app-development-company",
     },
     {
         title: "Social Media",
         icon: <SocialMedia />,
-        txt: "Developing scalable social media platforms with strong user engagement features, real-time content moderation, and interactive tools, we enhance community growth and optimize user retention for our clients."
+        txt: "Developing scalable social media platforms with strong user engagement features, real-time content moderation, and interactive tools, we enhance community growth and optimize user retention for our clients.",
+        url: "/social-media-app-development-company",
     },
     {
         title: "Logistics",
         icon: <Logistics />,
-        txt: "We specialize in logistics solutions, optimizing supply chain, fleet tracking, warehouse automation, and real-time data integration. Our platforms streamline operations, reduce costs, and enhance efficiency across logistics networks for businesses."
+        txt: "We specialize in logistics solutions, optimizing supply chain, fleet tracking, warehouse automation, and real-time data integration. Our platforms streamline operations, reduce costs, and enhance efficiency across logistics networks for businesses.",
+        url: "/logistics-software-development",
     },
     {
         title: "eCommerce",
         icon: <ECommerce />,
-        txt: "With a focus on scalability, omnichannel integration, and personalized shopping experiences, we deliver e-commerce platforms that enhance customer journeys, boost conversions, and streamline backend operations for online retailers."
+        txt: "With a focus on scalability, omnichannel integration, and personalized shopping experiences, we deliver e-commerce platforms that enhance customer journeys, boost conversions, and streamline backend operations for online retailers.",
+        url: "/ecommerce-app-development",
     }
 ]
 
