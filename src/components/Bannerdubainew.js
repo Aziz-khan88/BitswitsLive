@@ -20,7 +20,7 @@ const Bannerdubai = ({ content }) => {
     const [checkboxes, setCheckboxes] = useState([]);
 
     // Creating function to load IP address from the API
- 
+
     const getIPData = async () => {
         try {
             const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
@@ -180,7 +180,7 @@ const Bannerdubai = ({ content }) => {
     }
     return (
         <>
-            <section className={`${styles.DubaiBanner} bg-black`}>
+            <section className={`${styles.DubaiBanner} bg-black pt-140 pb-3`}>
                 <Image src={bg} fill priority={true} sizes='100vw' className='d-md-block d-none' style={{ zIndex: -1 }} />
                 <Container className={` ${styles.conform}`}>
                     <Row className={`g-5 ${styles.applost} align-items-center w-100 mx-auto`}>

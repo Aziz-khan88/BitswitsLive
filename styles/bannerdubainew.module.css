@@ -24,7 +24,7 @@
 
 .DubaiBanner {
   background: #000;
-  height: 100dvh;
+  height: auto;
   display: flex;
   align-items: center;
   position: relative;

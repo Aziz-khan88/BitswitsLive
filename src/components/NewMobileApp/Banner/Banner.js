@@ -21,7 +21,7 @@ const Banner = ({ content }) => {
     const [isDisabled, setIsDisabled] = useState(false);
 
     // Creating function to load IP address from the API
- 
+
     const getIPData = async () => {
         try {
             const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
@@ -171,7 +171,7 @@ const Banner = ({ content }) => {
 
     return (
         <>
-            <section className={`${styles.bannerSec}`} >
+            <section className={`${styles.bannerSec} pt-140`} >
                 <Container>
                     <Row className={`g-5 ${styles.applost} align-items-center`}>
                         <Col lg={7} xl={6} className='p-0 my-0'>

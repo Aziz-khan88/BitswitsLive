@@ -7,7 +7,7 @@ import styles from '@/styles/CaseBanner.module.css'
 const CaseBanner = (props) => {
     return (
         <>
-            <section className={`${styles.banner} ${styles[props.bannerClass]}`}>
+            <section className={`${styles.banner} ${styles[props.bannerClass]} pt-140`}>
                 <Container>
                     <Row>
                         <Col lg={12}>
