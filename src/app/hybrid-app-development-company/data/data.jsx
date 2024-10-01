@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -96,7 +96,7 @@ export const BannerData = {
     title: "Industry-Leading Hybrid App Development Company",
     content: "Make your app accessible to clients on any platform with our hybrid app development services! Achieve 3X faster deployment and 50% cost savings by building scalable apps with optimal performance using the latest tech stacks like React Native, Flutter, and Ionic.",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }

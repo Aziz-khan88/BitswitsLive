@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -98,7 +98,7 @@ export const BannerData = {
     title: "Top Rated NFT Game Development Company",
     content: "It’s time to revolutionize the world of digital gaming with our 360 NFT game development solutions! We, as an NFT game development company, have built thrilling games using Blockchain technology. Engage and retain players with games that offer exciting stream monetization opportunities.",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Game Idea",
     fromtext: "Share your game objectives with our experts and create your custom game."
 }

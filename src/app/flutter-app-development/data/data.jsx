@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -52,8 +52,8 @@ import CtaEstimatedImg from "media/services/ctaImg.webp"
 
 //========= TechStack Images
 import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
+import TAB1_2 from "media/industry/techstack/Flutter.svg";
+import TAB1_3 from "media/industry/techstack/Flutter.svg";
 import TAB2_1 from "media/services/tech/tab2/01.webp";
 import TAB2_2 from "media/services/tech/tab2/02.webp";
 import TAB2_3 from "media/services/tech/tab2/03.webp";
@@ -61,7 +61,7 @@ import TAB2_4 from "media/services/tech/tab2/04.webp";
 import TAB2_5 from "media/services/tech/tab2/05.webp";
 import TAB2_6 from "media/services/tech/tab2/06.webp";
 import TAB2_7 from "media/services/tech/tab2/07.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
+import TAB3_1 from "media/industry/techstack/Firebase.svg";
 import TAB3_2 from "media/services/tech/tab3/02.webp";
 import TAB3_3 from "media/services/tech/tab3/03.webp";
 import TAB3_4 from "media/services/tech/tab3/04.webp";
@@ -100,7 +100,7 @@ export const BannerData = {
     title: "Top-Grade Flutter App Development Company",
     content: "We deliver next-gen Flutter mobile apps for Android and iOS with accelerated development and cross-platform consistency. As a leading Flutter app development company, our efficient solutions offer native-like performance and interactive UIs with reduced development costs and time-to-market.",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
@@ -535,7 +535,7 @@ export const TechStackTabs = [
         title: "Backend and Database",
         content: [
             {
-                heading: "Firebase Realtime Database",
+                heading: "Firebase",
                 img: TAB3_1.src,
             },
             {

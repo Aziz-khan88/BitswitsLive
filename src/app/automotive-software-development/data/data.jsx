@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/automotive/bgBanner.webp";
 
 // Location Images
 import IndustrySliderIMG01 from "media/industry/automotive/industry/Industry01.webp"
@@ -54,41 +54,41 @@ import FuelingImg1 from "media/industry/automotive/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/C++.svg";
+import TAB1_2 from "media/industry/techstack/Python.svg";
+import TAB1_3 from "media/industry/techstack/Java.svg";
+import TAB1_4 from "media/industry/techstack/Swift.svg";
+import TAB1_5 from "media/industry/techstack/Kotlin.svg";
+import TAB1_6 from "media/industry/techstack/Rust.svg";
+import TAB2_1 from "media/industry/techstack/AUTOSAR.svg";
+import TAB2_2 from "media/industry/techstack/ROS.svg";
+import TAB2_3 from "media/industry/techstack/TensorFlow.svg";
+import TAB2_4 from "media/industry/techstack/Angular.svg";
+import TAB2_5 from "media/industry/techstack/Qt.svg";
+import TAB2_6 from "media/industry/techstack/OpenCV.svg";
+import TAB3_1 from "media/industry/techstack/MySQL.svg";
+import TAB3_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB3_3 from "media/industry/techstack/MongoDB.svg";
+import TAB3_4 from "media/industry/techstack/Oracle.svg";
+import TAB3_5 from "media/industry/techstack/MSSQL.svg";
+import TAB3_6 from "media/industry/techstack/Cassandra.svg";
+import TAB4_1 from "media/industry/techstack/OBD-IIAPIs.svg";
+import TAB4_2 from "media/industry/techstack/HEREMaps.svg";
+import TAB4_3 from "media/industry/techstack/OpenStreetMap.svg";
+import TAB4_4 from "media/industry/techstack/CarMD.svg";
+import TAB4_5 from "media/industry/techstack/TelematicsSDK.svg";
+import TAB4_6 from "media/industry/techstack/VINDecoderAPIs.svg";
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_3 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_4 from "media/industry/techstack/IBMCloud.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB6_1 from "media/industry/techstack/CANbus.svg";
+import TAB6_2 from "media/industry/techstack/J1939Protocol.svg";
+import TAB6_3 from "media/industry/techstack/MATLAB.svg";
+import TAB6_4 from "media/industry/techstack/Jenkins.svg";
+import TAB6_5 from "media/industry/techstack/Docker.svg";
+import TAB6_6 from "media/industry/techstack/GitLab.svg";
 
 //========= Industries Images
 import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
@@ -110,7 +110,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "The Automotive Software Development Company for Next-Gen Vehicle Solutions.",
     content: "Our automotive software development services empower automakers, dealerships, and OEMs with advanced vehicle technologies. We integrate smart diagnostics and real-time data analytics to enhance performance, streamline operations, and drive next-gen solutions for the evolving automotive industry.",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -159,37 +159,37 @@ export const IndustrySliderContent = {
 export const IndustrySliderList = [
     {
         img: IndustrySliderIMG01.src,
-        title: "Dealership Management System Development",
+        title: "DMS Development",
         txt: "As a leading automotive software development company, we offer custom Dealership Management System (DMS) solutions that streamline sales, financing, warehouse management, and service orders—optimizing distribution processes and enhancing dealership workflows for seamless operations."
     },
     {
         img: IndustrySliderIMG02.src,
-        title: "Advanced Driver Assistance System Development",
+        title: "AADS Development",
         txt: "Our automotive software engineering services include Advanced Driver Assistance System (AADS) development, enhancing driver safety with real-time hazard alerts, reliable data processing, and communication systems that keep drivers informed and responsive on the road."
     },
     {
         img: IndustrySliderIMG03.src,
-        title: "EV Software Development",
+        title: "EV Software",
         txt: "We create EV software that supports seamless roaming and infrastructure integration, fully compliant with OCPP standards. Our solutions drive eMobility advancements, ensuring smooth operations across charging networks and electric vehicle systems."
     },
     {
         img: IndustrySliderIMG04.src,
-        title: "BEV Software Development",
+        title: "BEV Software",
         txt: "Our Battery Electric Vehicle (BEV) software enhances performance and optimizes user experience, offering sustainable solutions that support efficient, battery-powered mobility for a more eco-friendly automotive future."
     },
     {
         img: IndustrySliderIMG05.src,
-        title: "Automotive eCommerce Platform Development",
+        title: "Automotive eCommerce",
         txt: "We build automotive eCommerce platforms that empower businesses to sell new and used vehicles, as well as auto parts, efficiently. Our solutions streamline sales processes, managing vast amounts of data without manual synchronization for a smoother operation."
     },
     {
         img: IndustrySliderIMG06.src,
-        title: "NEV Software Development",
+        title: "NEV Software",
         txt: "Our New Energy Vehicle (NEV) software development delivers cutting-edge solutions for electric and hybrid vehicles, focusing on battery management systems, efficient charging solutions, and seamless integration to enhance overall vehicle performance and sustainability."
     },
     {
         img: IndustrySliderIMG07.src,
-        title: "Navigation System Development",
+        title: "Navigation Systems",
         txt: "We develop advanced navigation systems using HMI and NDS standards, incorporating traffic data, lane models, and digital terrain mapping. Our solutions offer real-time updates, seamless route planning, and enhanced map displays for a superior driving experience."
     }
 ];
@@ -750,7 +750,6 @@ export const TechStackTabs = [
         ],
     }
 ];
-
 export const IndustriesContent = {
     title: "Other Industries We Serve",
     text: "Our extensive expertise spans multiple sectors. As a leading automotive software development company, we deliver industry-specific solutions that drive performance and improve operational efficiency, tailored to meet the evolving needs of each sector.",

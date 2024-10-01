@@ -7,7 +7,7 @@ import ContactFrom from "@/src/components/common/contactfrom"
 
 const Banner = ({ data }) => {
     return (
-        <section className={styles.bannerSection} style={{ backgroundImage: `url(${data.BanngBg})` }}>
+        <section className={styles.bannerSection} style={{ backgroundImage: `url(${data.BannerBg})` }}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={6} md={6} className="my-auto">

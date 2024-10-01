@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -106,7 +106,7 @@ export const BannerData = {
     title: "Leading iOS App Development Company",
     content: "BitsWits is a premier iOS app development company specializing in native iOS app development using Swift, Objective-C, and Xcode. We have the finest iOS app developers, user experience designers, and project managers, all expert-vetted in building trailblazing, revenue-generating apps that both end users and investors love.",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }

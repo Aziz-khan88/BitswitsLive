@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/RealEstate/bgBanner.webp";
 import IndustryCtaImg from "media/industry/RealEstate/ctaImage.webp"
 
 // Location Images
@@ -114,7 +114,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Scalable Real Estate App Development Company for Growing Property Markets",
     content: "BitsWits is a top-tier real estate app development company, empowering startups and SMBs to create feature-rich and scalable apps for iOS and Android. We deliver user-centric, custom real estate app solutions that help clients expand their reach, simplify property management, and make informed decisions.",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {

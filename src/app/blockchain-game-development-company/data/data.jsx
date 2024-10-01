@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -96,7 +96,7 @@ export const BannerData = {
     title: "Leading Blockchain Game Development Company",
     content: "BitsWits is a leading Blockchain game development company with over 10+ years of experience. Our expert Blockchain game developers & talented designers assist businesses in creating engaging, revenue-generating Blockchain games that captivate players and attract investors.",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Game Idea",
     fromtext: "Share your game objectives with our experts and create your custom game."
 }

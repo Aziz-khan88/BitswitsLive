@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -109,7 +109,7 @@ export const BannerData = {
     title: "Leading Android App Development Company",
     content: "BitsWits is a premier Android app development company, providing comprehensive services for fast-growing brands and enterprises. Our clients have collectively raised over $100 million and consistently rank at the top of the Google Play Store charts!",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
@@ -606,15 +606,15 @@ export const TechStackTabs = [
         title: "Cloud",
         content: [
             {
-                heading: "AWS (Amazon Web Services)",
+                heading: "AWS",
                 img: TAB5_1.src,
             },
             {
-                heading: "Google Cloud Platform",
+                heading: "GCP",
                 img: TAB5_2.src,
             },
             {
-                heading: "Microsoft Azure",
+                heading: "Azure",
                 img: TAB5_3.src,
             },
             {
@@ -647,7 +647,7 @@ export const TechStackTabs = [
                 img: TAB6_3.src,
             },
             {
-                heading: "Firebase Test Lab",
+                heading: "Firebase",
                 img: TAB6_4.src,
             },
             {

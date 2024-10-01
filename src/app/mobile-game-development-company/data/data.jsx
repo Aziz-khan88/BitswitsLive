@@ -1,7 +1,7 @@
 
 // Bannar Images
 import BannerLogos from "media/mobile-game-development-company/bannerLogo.webp"
-import BanngBg from "media/mobile-game-development-company/bannerIMG.webp"
+import BannerBg from "media/mobile-game-development-company/bannerIMG.webp"
 
 // services Images
 import GameBg1 from "media/mobile-game-development-company/services/GameBg01.webp"
@@ -84,7 +84,7 @@ export const BannerData = {
     title: "Mobile Game App Development Company",
     content: "BitsWits is a leading mobile game app development company with expert-vetted game programmers, artists, and sound designers who deliver smooth gameplay and fascinating storylines. Using cutting-edge technology like Unity and Unreal Engine, we create wow-worthy 2D and 3D games on Android and iOS that keep players hooked!",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const ProjectdiscussContent = {

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -111,7 +111,7 @@ export const BannerData = {
     title: "Top-Tier AI Development Company",
     content: "BitsWits is the fastest-growing AI development company, building cutting-edge technology for the future! With a team of top-tier ML engineers, data scientists, and AI developers, we create future-ready applications for ambitious clients, powered by AI and machine learning.",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Your AI product Idea",
     fromtext: "Share your AI product objectives with our experts and create your custom AI product."
 }

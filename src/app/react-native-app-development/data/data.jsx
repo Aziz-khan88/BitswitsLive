@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -94,7 +94,7 @@ export const BannerData = {
     title: "Leading React Native App Development Company",
     content: "With a 38% market share, React Native offers cost-effective solutions, with code written once and deployed across Android and iOS. Our React Native app development services use intuitive UI building blocks and platform-agnostic components to create fast apps for ambitious startups and Fortune 500 companies.",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }

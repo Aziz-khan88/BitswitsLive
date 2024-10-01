@@ -1,6 +1,6 @@
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BannerBg from "media/industry/education/bgBanner.webp";
 
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/education/ctaImage.webp"
@@ -113,7 +113,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Leading Education App Development Company for Engaging Learning Solutions",
     content: "BitsWits is a market-leading education app development company delivering smart e-learning solutions on Android, iOS, and other platforms. With our scalable educational app development services, we’ve redefined the learning experience for 10 million+ students and trainers worldwide!",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {

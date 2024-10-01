@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // Bannar Images
 import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BannerBg from "media/services/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -102,7 +102,7 @@ export const BannerData = {
     title: "Top Cross-Platform App Development Services",
     content: "BitsWits offers top-tier cross-platform app development services to ambitious pre-seed and seed startups looking to build state-of-the-art mobile applications and MVPs without breaking the bank. We cut turnaround times into half and save you big bucks with native-like mobile apps for both iOS and Android platforms. ",
     BannerLogos: BannerLogos.src,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
