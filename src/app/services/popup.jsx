@@ -13,8 +13,7 @@ const PopUp = (props) => {
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
             centered
-        >
-            <section className={styles.popupSection}>
+        ><section className={styles.popupSection}>
                 <div className={styles.closedBtn} onClick={onHide}><ClosedBtn /></div>
                 <Container className="h-100">
                     <Row className="h-100">
