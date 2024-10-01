@@ -4,16 +4,16 @@ import IMG from "media/services/cuttingEdge.webp"
 import styles from "@/styles/services/cuttingedge.module.scss"
 import Image from "next/image"
 import NormalBtn from "@/src/components/common/normalbtn"
-
+import PopUp from "@/src/app/services/popup";
+import { useState } from "react";
 
 const Cuttingedge = ({ data, list }) => {
-    
+
     // Chat Code
-    const handleChatOpen = (e) => {
-        e.preventDefault();
-        if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
-            $zopim.livechat.window.show();
-        }
+    const [modalShow, setModalShow] = useState(false);
+
+    const handleClick = () => {
+        setModalShow(true);
     };
     return (
         <section className={`${styles.cuttingedgeSection} pt-100`} id="Services">
@@ -34,7 +34,7 @@ const Cuttingedge = ({ data, list }) => {
                                         <div className={styles.titleBox}>
                                             <h5>{item.title}</h5>
                                             <div className={styles.normalButton}>
-                                                <div className={styles.linksBtn} onClick={handleChatOpen}>Let’s Do This!</div>
+                                                <div className={styles.linksBtn} onClick={() => handleClick()}>Let’s Do This!</div>
                                             </div>
                                         </div>
                                         <div className={styles.contentBox}>
@@ -47,7 +47,7 @@ const Cuttingedge = ({ data, list }) => {
                                 <div className={styles.stickyBox}>
                                     <Image src={IMG.src} alt="Btiswits Services" width={355} height={294} />
                                     <h5>{data?.subtext}</h5>
-                                    <NormalBtn text="Let’s Talk !" link="" bgcolor="#fff" txtcolor="#4D77EE" />
+                                    <NormalBtn text="Let’s Talk !" bgcolor="#fff" txtcolor="#4D77EE" />
                                 </div>
 
                             </div>
@@ -55,7 +55,8 @@ const Cuttingedge = ({ data, list }) => {
                     </Col>
                 </Row>
             </Container>
-        </section >
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
+        </section>
     )
 }
 

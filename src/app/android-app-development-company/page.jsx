@@ -53,12 +53,12 @@ export default function Page() {
       <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
       <Fueling data={FuelingContent} list={FuelingList} />
       <CtaEstimated data={CtaEstimatedContent} />
-      <TechStack data={TechStackContent} tabs={TechStackTabs} />
+      {/* <TechStack data={TechStackContent} tabs={TechStackTabs} /> */}
       <Industries data={IndustriesContent} list={IndustriesList} />
       <IdeaCta data={IdeaCtaContent} />
-      <Faqs data={FaqsContent} list={FaqsList}/>
-      <Blogs data={BlogsContent} list={BlogsList}/>
-      
+      <Faqs data={FaqsContent} list={FaqsList} />
+      <Blogs data={BlogsContent} list={BlogsList} />
+
     </>
   );
 }

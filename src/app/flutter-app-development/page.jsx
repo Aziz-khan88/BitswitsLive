@@ -51,14 +51,14 @@ export default function Page() {
       <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
       <Risks data={RisksContent} />
       <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
-      <Fueling data={FuelingContent} list={FuelingList}/>
+      <Fueling data={FuelingContent} list={FuelingList} />
       <CtaEstimated data={CtaEstimatedContent} />
-      <TechStack data={TechStackContent} tabs={TechStackTabs}/>
-      <Industries data={IndustriesContent} list={IndustriesList}/>
-      <IdeaCta data={IdeaCtaContent}/>
-      <Faqs data={FaqsContent} list={FaqsList}/>
-      <Blogs data={BlogsContent} list={BlogsList}/>
-      
+      {/* <TechStack data={TechStackContent} tabs={TechStackTabs}/> */}
+      <Industries data={IndustriesContent} list={IndustriesList} />
+      <IdeaCta data={IdeaCtaContent} />
+      <Faqs data={FaqsContent} list={FaqsList} />
+      <Blogs data={BlogsContent} list={BlogsList} />
+
     </>
   );
 }

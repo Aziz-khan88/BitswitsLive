@@ -5,15 +5,7 @@ import { useState } from 'react'
 
 
 const ButtonCommon = ({ color, txt }) => {
-    // Chat Code
-    // const handleChatOpen = (e) => {
-    //     e.preventDefault();
-    //     if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
-    //         $zopim.livechat.window.show();
-    //     }
-    // };
     const [modalShow, setModalShow] = useState(false);
-
     const handleClick = () => {
         setModalShow(true);
     };

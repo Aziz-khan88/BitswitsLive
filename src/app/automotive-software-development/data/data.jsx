@@ -266,7 +266,7 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Skilled Developers for Automotive Software Solutions!",
     text: (<>
-        <p>Our developers specialize in creating <strong>automotive software using technologies</strong> like Python, C++, Java, and IoT integration. </p>
+        <p>Our developers specialize in creating automotive software using technologies like Python, C++, Java, and IoT integration. </p>
         <p>They provide tailored solutions for vehicle diagnostics, fleet management, and in-car infotainment systems.</p>
         <p>Focusing on safety, connectivity, and performance, our team delivers software that meets the evolving needs of the automotive industry, enhancing driver experience and operational efficiency.</p>
         <p>Use our free cost calculator to get an instant breakdown of your software cost!</p>

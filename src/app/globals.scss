@@ -180,6 +180,7 @@ li {
     width: 250px;
     position: relative;
     z-index: 1;
+    cursor: pointer;
 
     &.white {
         &::before {
@@ -314,8 +315,7 @@ li {
             #f32faf 18.3%,
             #4a78ef 110.98%);
     border-radius: 64px;
-
-
+    cursor: pointer;
 
     a,
     div.linksBtn {
