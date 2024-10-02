@@ -4,14 +4,13 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/testimonial.module.scss"
 import { FiveStarIcon, ClutchLogo, GoogleLogo, TrustpilotLogo } from "@/src/app/app-constants"
 import useEmblaCarousel from 'embla-carousel-react'
-// import AutoScroll from 'embla-carousel-auto-scroll'
+import AutoScroll from 'embla-carousel-auto-scroll'
 
 const Testimonial = ({ data, list }) => {
     const options = { loop: false }
-    const [emblaRef] = useEmblaCarousel(options)
-    // const [emblaRef] = useEmblaCarousel(options, [
-    //     AutoScroll({ playOnInit: false, topOnInteraction: false, delay: 2000, })
-    // ])
+    const [emblaRef] = useEmblaCarousel(options, [
+        AutoScroll({ playOnInit: false, topOnInteraction: false, delay: 2000, })
+    ])
     return (
         <section className={`${styles.testimonialSection} pt-100`}>
             <Container>
