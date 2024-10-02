@@ -48,21 +48,21 @@ const Testimonial = ({ data, list }) => {
                                             </div>
                                         </div>
                                     </div>
-                                    {list.map((tab, index) => ( 
+                                    {list.map((tab, index) => (
                                         <div className={styles.embla__slide} key={index}>
-                                        <div className={styles.testimonialItems}>
-                                            <div className={styles.testimonialImage}>
-                                                {tab?.logo}
-                                            </div>
-                                            <div className={styles.testimonialTxt}>
-                                                <p><span>“</span>{tab?.text}<span>”</span></p>
-                                            </div>
-                                            <div className={styles.testimonialInfo}>
-                                                <div className={styles.nameInfo}>{tab?.name}</div>
-                                                <div className={styles.designationInfo}>{tab?.designation}</div>
+                                            <div className={styles.testimonialItems}>
+                                                <div className={styles.testimonialImage}>
+                                                    {tab?.logo}
+                                                </div>
+                                                <div className={styles.testimonialTxt}>
+                                                    <p><span>“</span>{tab?.text}<span>”</span></p>
+                                                </div>
+                                                <div className={styles.testimonialInfo}>
+                                                    <div className={styles.nameInfo}>{tab?.name}</div>
+                                                    <div className={styles.designationInfo}>{tab?.designation}</div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
                                     ))}
                                 </div>
                             </div>
